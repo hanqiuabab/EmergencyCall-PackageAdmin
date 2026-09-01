@@ -3,10 +3,6 @@ name: Publish Number Package
 on:
   workflow_dispatch:
     inputs:
-      version:
-        description: Monotonically increasing package version
-        required: true
-        type: string
       environment:
         description: CloudKit environment
         required: true
@@ -28,6 +24,7 @@ jobs:
     name: Validate, sign and publish
     runs-on: macos-15
     environment: ${{ inputs.environment }}
+    concurrency: number-package-${{ inputs.environment }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,10 +44,19 @@ jobs:
           swift run NumberPackageTool validate
           --regions ../../NumberPackages/Source/regions.json
           --contacts ../../NumberPackages/Source/contacts.json
+      - name: Determine next CloudKit version
+        id: package-version
+        env:
+          CLOUDKIT_SERVER_KEY_ID: ${{ secrets.CLOUDKIT_SERVER_KEY_ID }}
+          CLOUDKIT_SERVER_PRIVATE_KEY_PEM: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_PEM }}
+          TARGET_ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          VERSION="$(node Scripts/publish-cloudkit.mjs --next-version true --environment "$TARGET_ENVIRONMENT")"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
       - name: Build deterministic package
         working-directory: Tools/NumberPackageTool
         env:
-          PACKAGE_VERSION: ${{ inputs.version }}
+          PACKAGE_VERSION: ${{ steps.package-version.outputs.version }}
         run: >-
           swift run NumberPackageTool build
           --regions ../../NumberPackages/Source/regions.json
@@ -64,7 +70,7 @@ jobs:
           NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64: ${{ secrets.NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64 }}
           CLOUDKIT_SERVER_KEY_ID: ${{ secrets.CLOUDKIT_SERVER_KEY_ID }}
           CLOUDKIT_SERVER_PRIVATE_KEY_PEM: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_PEM }}
-          PACKAGE_VERSION: ${{ inputs.version }}
+          PACKAGE_VERSION: ${{ steps.package-version.outputs.version }}
           NUMBER_PACKAGE_PUBLIC_KEY_PATH: Config/number-package-public-key.b64
         run: >-
           node Scripts/publish-cloudkit.mjs
@@ -73,7 +79,7 @@ jobs:
       - name: Archive signed package evidence
         uses: actions/upload-artifact@v4
         with:
-          name: developer-number-package-v${{ inputs.version }}-${{ inputs.environment }}
+          name: developer-number-package-v${{ steps.package-version.outputs.version }}-${{ inputs.environment }}
           path: |
             NumberPackages/Dist/*.json
             NumberPackages/Dist/*.sha256

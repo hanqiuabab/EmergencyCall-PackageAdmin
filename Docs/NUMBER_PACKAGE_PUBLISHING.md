@@ -20,17 +20,17 @@ NumberPackages/Dist/developer-numbers-v000001.json
 
 | 字段 | 含义 |
 | --- | --- |
-| `id` | 永久稳定且唯一的号码记录 ID |
-| `serviceKey` | 同一业务的稳定键；地区更具体的号码用它覆盖全国默认值 |
+| `id` | 永久稳定且唯一的号码记录 ID；网页新增或复制时自动生成，不需要人工输入 |
+| `serviceKey` | 同一业务的稳定键；网页根据“所属服务”自动生成或复用，地区更具体的号码用它覆盖全国默认值 |
 | `category` | `police`、`fire`、`medical`、`traffic`、`utility`、`other` |
 | `name.zhHans` / `name.en` | 中英文名称 |
 | `description.zhHans` / `description.en` | 中英文说明 |
 | `displayNumber` | 面向用户显示的格式 |
-| `dialNumber` | 仅允许数字，或开头一个 `+` 后跟数字 |
-| `coverageScopes` | `nationwide`、`province` 或 `city`，省市项同时填写行政代码 |
+| `dialNumber` | 网页根据 `displayNumber` 自动去除空格、括号和短横线；结果只允许数字，或开头一个 `+` 后跟数字 |
+| `coverageScopes` | `nationwide`、`province` 或 `city`；网页显示地区名称并自动写入行政代码 |
 | `sourceURL` | 核验来源，必须是 HTTPS |
-| `verifiedAt` | 最近核验日期 |
-| `sortOrder` | 排序值 |
+| `verifiedAt` | 最近人工核验日期；只有点击“今天已核验”才更新 |
+| `sortOrder` | 网页根据列表顺序自动生成 |
 | `isFeatured` | 是否在首页推荐 |
 
 全国范围写法：
@@ -42,8 +42,8 @@ NumberPackages/Dist/developer-numbers-v000001.json
 省级和市级范围写法：
 
 ```json
-{"type":"province","regionCode":"CN-32"}
-{"type":"city","regionCode":"CN-32-01"}
+{"type":"province","regionCode":"320000"}
+{"type":"city","regionCode":"320100"}
 ```
 
 ## 构建
@@ -71,7 +71,7 @@ swift run --package-path Tools/NumberPackageTool NumberPackageTool build \
 
 ## 发布
 
-推荐从 GitHub Pages 资源包控制台发布，操作方式与密钥初始化见 `Docs/PACKAGE_ADMIN_SITE.md`。控制台提交 `contacts.json` 后，GitHub Actions 会校验源文件、生成确定性全量包、签名、检查 CloudKit 已发布版本并上传 Asset。
+推荐从 GitHub Pages 资源包控制台发布，操作方式与密钥初始化见 `Docs/PACKAGE_ADMIN_SITE.md`。控制台提交 `contacts.json` 后，GitHub Actions 会查询目标环境最高版本并自动加一，然后校验源文件、生成确定性全量包、签名并上传 Asset。编辑人员无需填写版本、发布时间、SHA-256、签名或 CloudKit 记录名。
 
 以下命令保留用于本机发布。
 

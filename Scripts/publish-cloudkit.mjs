@@ -56,10 +56,19 @@ function parseArguments(argumentsList) {
     if (!key?.startsWith("--") || value === undefined) throw new Error(`Invalid argument: ${key || "(missing)"}`);
     values[key.slice(2)] = value;
   }
-  if (!values.package || !["development", "production"].includes(values.environment)) {
-    throw new Error("Usage: publish-cloudkit.mjs --package <package.json> --environment <development|production>");
+  if (!["development", "production"].includes(values.environment)) {
+    throw new Error("Usage: publish-cloudkit.mjs --environment <development|production> [--package <package.json> | --next-version true]");
+  }
+  if (values["next-version"] !== "true" && !values.package) {
+    throw new Error("Either --package or --next-version true is required.");
   }
   return values;
+}
+
+export function nextPackageVersion(latestVersion) {
+  const parsed = Number(latestVersion);
+  if (!Number.isSafeInteger(parsed) || parsed < 0) throw new Error("Latest package version must be a non-negative safe integer.");
+  return parsed + 1;
 }
 
 function requiredEnvironment(name) {
@@ -68,11 +77,11 @@ function requiredEnvironment(name) {
   return value;
 }
 
-function validatePackageShape(packageDocument) {
-  for (const key of ["version", "schemaVersion", "regionCatalogVersion", "publishedAt", "regions", "contacts"]) {
+export function validatePackageShape(packageDocument) {
+  for (const key of ["contentVersion", "schemaVersion", "regionCatalogVersion", "publishedAt", "regions", "contacts"]) {
     if (!(key in packageDocument)) throw new Error(`Package is missing ${key}.`);
   }
-  if (!Number.isInteger(packageDocument.version) || packageDocument.version < 1) throw new Error("Package version must be a positive integer.");
+  if (!Number.isInteger(packageDocument.contentVersion) || packageDocument.contentVersion < 1) throw new Error("Package contentVersion must be a positive integer.");
   if (packageDocument.schemaVersion !== 1) throw new Error(`Unsupported schema version: ${packageDocument.schemaVersion}`);
   if (Number.isNaN(Date.parse(packageDocument.publishedAt))) throw new Error("Package publishedAt must be ISO 8601.");
 }
@@ -118,6 +127,14 @@ async function latestPublishedVersion(configuration) {
   return Number(result.records?.[0]?.fields?.version?.value || 0);
 }
 
+function cloudKitConfiguration(environment) {
+  return {
+    databasePath: `/database/1/${container}/${environment}/public`,
+    keyID: requiredEnvironment("CLOUDKIT_SERVER_KEY_ID"),
+    serverPrivateKey: requiredEnvironment("CLOUDKIT_SERVER_PRIVATE_KEY_PEM")
+  };
+}
+
 async function requestAssetUpload(configuration, recordName) {
   const path = `${configuration.databasePath}/assets/upload`;
   const result = await cloudKitRequest({
@@ -146,7 +163,7 @@ async function uploadAsset(url, data) {
 }
 
 async function createPackageRecord(configuration, packageDocument, hash, packageSignature, assetValue) {
-  const recordName = `developer-number-package-v${packageDocument.version}`;
+  const recordName = `developer-number-package-v${packageDocument.contentVersion}`;
   const path = `${configuration.databasePath}/records/modify`;
   const result = await cloudKitRequest({
     ...configuration,
@@ -158,7 +175,7 @@ async function createPackageRecord(configuration, packageDocument, hash, package
           recordType,
           recordName,
           fields: {
-            version: { value: packageDocument.version },
+            version: { value: packageDocument.contentVersion },
             schemaVersion: { value: packageDocument.schemaVersion },
             regionCatalogVersion: { value: packageDocument.regionCatalogVersion },
             publishedAt: { value: Date.parse(packageDocument.publishedAt) },
@@ -180,14 +197,19 @@ async function createPackageRecord(configuration, packageDocument, hash, package
 
 async function main() {
   const argumentsMap = parseArguments(process.argv.slice(2));
+  const configuration = cloudKitConfiguration(argumentsMap.environment);
+  const latestVersion = await latestPublishedVersion(configuration);
+  if (argumentsMap["next-version"] === "true") {
+    console.log(nextPackageVersion(latestVersion));
+    return;
+  }
+
   const packagePath = resolve(argumentsMap.package);
   const packageData = await readFile(packagePath);
   const packageDocument = JSON.parse(packageData.toString("utf8"));
   validatePackageShape(packageDocument);
 
   const signingPrivateKey = packagePrivateKey();
-  const serverPrivateKey = requiredEnvironment("CLOUDKIT_SERVER_PRIVATE_KEY_PEM");
-  const keyID = requiredEnvironment("CLOUDKIT_SERVER_KEY_ID");
   const scriptDirectory = dirname(fileURLToPath(import.meta.url));
   const applicationPublicKeyPath = resolve(
     process.env.NUMBER_PACKAGE_PUBLIC_KEY_PATH ||
@@ -201,17 +223,11 @@ async function main() {
 
   const hash = packageDigest(packageData);
   const packageSignature = signPackage(packageData, signingPrivateKey);
-  const configuration = {
-    databasePath: `/database/1/${container}/${argumentsMap.environment}/public`,
-    keyID,
-    serverPrivateKey
-  };
-  const latestVersion = await latestPublishedVersion(configuration);
-  if (packageDocument.version <= latestVersion) {
-    throw new Error(`Version ${packageDocument.version} must be greater than published version ${latestVersion}.`);
+  if (packageDocument.contentVersion <= latestVersion) {
+    throw new Error(`Version ${packageDocument.contentVersion} must be greater than published version ${latestVersion}.`);
   }
 
-  const recordName = `developer-number-package-v${packageDocument.version}`;
+  const recordName = `developer-number-package-v${packageDocument.contentVersion}`;
   const uploadToken = await requestAssetUpload(configuration, recordName);
   const uploadedAsset = await uploadAsset(uploadToken.url, packageData);
   const assetValue = uploadedAsset.singleFile || uploadedAsset;

@@ -9,7 +9,7 @@ const output = resolve(siteRoot, "dist");
 await rm(output, { recursive: true, force: true });
 await mkdir(resolve(output, "data"), { recursive: true });
 
-for (const file of ["index.html", "styles.css", "app.js", "core.mjs", "og.png"]) {
+for (const file of ["index.html", "styles.css", "app.js", "core.mjs", "favicon.svg", "og.png"]) {
   await cp(resolve(siteRoot, file), resolve(output, file));
 }
 

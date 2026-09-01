@@ -1,7 +1,28 @@
 import assert from "node:assert/strict";
 import { createHash, generateKeyPairSync, verify } from "node:crypto";
 import { test } from "node:test";
-import { cloudKitSigningMessage, packageDigest, packagePrivateKey, rawEd25519PublicKey, signPackage } from "../../Scripts/publish-cloudkit.mjs";
+import { cloudKitSigningMessage, nextPackageVersion, packageDigest, packagePrivateKey, rawEd25519PublicKey, signPackage, validatePackageShape } from "../../Scripts/publish-cloudkit.mjs";
+
+test("increments the latest CloudKit package version automatically", () => {
+  assert.equal(nextPackageVersion(0), 1);
+  assert.equal(nextPackageVersion("42"), 43);
+  assert.throws(() => nextPackageVersion(-1), /non-negative/);
+  assert.throws(() => nextPackageVersion(1.5), /safe integer/);
+});
+
+test("accepts the Swift tool contentVersion package schema", () => {
+  const document = {
+    schemaVersion: 1,
+    contentVersion: 7,
+    regionCatalogVersion: 1,
+    publishedAt: "2026-09-01T00:00:00Z",
+    regions: [],
+    contacts: []
+  };
+  assert.doesNotThrow(() => validatePackageShape(document));
+  assert.throws(() => validatePackageShape({ ...document, contentVersion: undefined }), /contentVersion/);
+  assert.throws(() => validatePackageShape({ ...document, version: 7, contentVersion: undefined }), /contentVersion/);
+});
 
 test("constructs the exact CloudKit server signing message", () => {
   const body = '{"records":[]}';

@@ -17,6 +17,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'" />
     <title>资源包控制台 · Emergency Call</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -39,7 +40,7 @@
         <div class="sidebar-heading">
           <div>
             <p class="eyebrow" data-i18n="contacts.eyebrow">开发者号码</p>
-            <h1><span id="contactCount">0</span> <span data-i18n="contacts.unit">项服务</span></h1>
+            <h1><span id="contactCount">0</span> <span data-i18n="contacts.unit">条号码</span></h1>
           </div>
           <button class="icon-button" id="addContactButton" type="button" aria-label="新增号码">＋</button>
         </div>
@@ -79,15 +80,12 @@
           <button class="icon-button icon-button-muted" id="publishCloseButton" type="button" aria-label="关闭">×</button>
         </div>
         <p id="publishDialogDescription" class="modal-description"></p>
+        <p id="versionAutomaticText" class="automatic-note"></p>
         <div class="form-grid">
           <label class="form-field is-wide">
             <span id="tokenLabel"></span>
             <input id="githubTokenInput" type="password" autocomplete="off" required />
             <small id="tokenHelp"></small>
-          </label>
-          <label class="form-field">
-            <span id="versionLabel"></span>
-            <input id="versionInput" type="number" min="1" step="1" required />
           </label>
           <label class="form-field">
             <span id="environmentLabel"></span>
