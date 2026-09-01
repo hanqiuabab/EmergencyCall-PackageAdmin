@@ -1,0 +1,82 @@
+name: Publish Number Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Monotonically increasing package version
+        required: true
+        type: string
+      environment:
+        description: CloudKit environment
+        required: true
+        default: development
+        type: choice
+        options:
+          - development
+          - production
+      source_commit:
+        description: Commit containing the reviewed contacts.json
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Validate, sign and publish
+    runs-on: macos-15
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_commit }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Test package console and publisher
+        working-directory: PackageAdminSite
+        run: npm test
+      - name: Test Swift package tool
+        working-directory: Tools/NumberPackageTool
+        run: swift test
+      - name: Validate package source
+        working-directory: Tools/NumberPackageTool
+        run: >-
+          swift run NumberPackageTool validate
+          --regions ../../NumberPackages/Source/regions.json
+          --contacts ../../NumberPackages/Source/contacts.json
+      - name: Build deterministic package
+        working-directory: Tools/NumberPackageTool
+        env:
+          PACKAGE_VERSION: ${{ inputs.version }}
+        run: >-
+          swift run NumberPackageTool build
+          --regions ../../NumberPackages/Source/regions.json
+          --contacts ../../NumberPackages/Source/contacts.json
+          --version "$PACKAGE_VERSION"
+          --published-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          --output-dir ../../NumberPackages/Dist
+      - name: Publish signed package to CloudKit
+        env:
+          NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_PEM: ${{ secrets.NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_PEM }}
+          NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64: ${{ secrets.NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64 }}
+          CLOUDKIT_SERVER_KEY_ID: ${{ secrets.CLOUDKIT_SERVER_KEY_ID }}
+          CLOUDKIT_SERVER_PRIVATE_KEY_PEM: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_PEM }}
+          PACKAGE_VERSION: ${{ inputs.version }}
+          NUMBER_PACKAGE_PUBLIC_KEY_PATH: Config/number-package-public-key.b64
+        run: >-
+          node Scripts/publish-cloudkit.mjs
+          --package "NumberPackages/Dist/developer-numbers-v$(printf '%06d' "$PACKAGE_VERSION").json"
+          --environment "${{ inputs.environment }}"
+      - name: Archive signed package evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: developer-number-package-v${{ inputs.version }}-${{ inputs.environment }}
+          path: |
+            NumberPackages/Dist/*.json
+            NumberPackages/Dist/*.sha256
+            NumberPackages/Dist/*.sig
+          if-no-files-found: error
+          retention-days: 90

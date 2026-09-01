@@ -1,0 +1,50 @@
+name: Deploy Package Console
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "PackageAdminSite/**"
+      - "NumberPackages/Source/contacts.json"
+      - "NumberPackages/Source/regions.json"
+      - ".github/workflows/deploy-package-admin.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Test console
+        working-directory: PackageAdminSite
+        run: npm test
+      - name: Build console
+        working-directory: PackageAdminSite
+        run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: PackageAdminSite/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

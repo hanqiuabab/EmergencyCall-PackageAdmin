@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+PackageAdminSite/dist/
+NumberPackages/Dist/
+*.pem
+*.p8
+*.key
+*.token

@@ -1,0 +1,5207 @@
+[
+  {
+    "code": "CN",
+    "parentCode": null,
+    "level": "country",
+    "name": {
+      "zhHans": "中国大陆",
+      "en": "Mainland China"
+    },
+    "aliases": [
+      "中国",
+      "中国大陆",
+      "China",
+      "Mainland China",
+      "CN"
+    ]
+  },
+  {
+    "code": "110000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "北京市",
+      "en": ""
+    },
+    "aliases": [
+      "北京",
+      "北京市"
+    ]
+  },
+  {
+    "code": "120000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "天津市",
+      "en": ""
+    },
+    "aliases": [
+      "天津",
+      "天津市"
+    ]
+  },
+  {
+    "code": "130000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "河北省",
+      "en": ""
+    },
+    "aliases": [
+      "河北",
+      "河北省"
+    ]
+  },
+  {
+    "code": "140000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "山西省",
+      "en": ""
+    },
+    "aliases": [
+      "山西",
+      "山西省"
+    ]
+  },
+  {
+    "code": "150000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "内蒙古自治区",
+      "en": ""
+    },
+    "aliases": [
+      "内蒙古",
+      "内蒙古自治区"
+    ]
+  },
+  {
+    "code": "210000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "辽宁省",
+      "en": ""
+    },
+    "aliases": [
+      "辽宁",
+      "辽宁省"
+    ]
+  },
+  {
+    "code": "220000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "吉林省",
+      "en": ""
+    },
+    "aliases": [
+      "吉林",
+      "吉林省"
+    ]
+  },
+  {
+    "code": "230000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "黑龙江省",
+      "en": ""
+    },
+    "aliases": [
+      "黑龙江",
+      "黑龙江省"
+    ]
+  },
+  {
+    "code": "310000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "上海市",
+      "en": ""
+    },
+    "aliases": [
+      "上海",
+      "上海市"
+    ]
+  },
+  {
+    "code": "320000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "江苏省",
+      "en": ""
+    },
+    "aliases": [
+      "江苏",
+      "江苏省"
+    ]
+  },
+  {
+    "code": "330000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "浙江省",
+      "en": ""
+    },
+    "aliases": [
+      "浙江",
+      "浙江省"
+    ]
+  },
+  {
+    "code": "340000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "安徽省",
+      "en": ""
+    },
+    "aliases": [
+      "安徽",
+      "安徽省"
+    ]
+  },
+  {
+    "code": "350000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "福建省",
+      "en": ""
+    },
+    "aliases": [
+      "福建",
+      "福建省"
+    ]
+  },
+  {
+    "code": "360000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "江西省",
+      "en": ""
+    },
+    "aliases": [
+      "江西",
+      "江西省"
+    ]
+  },
+  {
+    "code": "370000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "山东省",
+      "en": ""
+    },
+    "aliases": [
+      "山东",
+      "山东省"
+    ]
+  },
+  {
+    "code": "410000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "河南省",
+      "en": ""
+    },
+    "aliases": [
+      "河南",
+      "河南省"
+    ]
+  },
+  {
+    "code": "420000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "湖北省",
+      "en": ""
+    },
+    "aliases": [
+      "湖北",
+      "湖北省"
+    ]
+  },
+  {
+    "code": "430000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "湖南省",
+      "en": ""
+    },
+    "aliases": [
+      "湖南",
+      "湖南省"
+    ]
+  },
+  {
+    "code": "440000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "广东省",
+      "en": ""
+    },
+    "aliases": [
+      "广东",
+      "广东省"
+    ]
+  },
+  {
+    "code": "450000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "广西壮族自治区",
+      "en": ""
+    },
+    "aliases": [
+      "广西",
+      "广西壮族自治区"
+    ]
+  },
+  {
+    "code": "460000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "海南省",
+      "en": ""
+    },
+    "aliases": [
+      "海南",
+      "海南省"
+    ]
+  },
+  {
+    "code": "500000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "重庆市",
+      "en": ""
+    },
+    "aliases": [
+      "重庆",
+      "重庆市"
+    ]
+  },
+  {
+    "code": "510000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "四川省",
+      "en": ""
+    },
+    "aliases": [
+      "四川",
+      "四川省"
+    ]
+  },
+  {
+    "code": "520000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "贵州省",
+      "en": ""
+    },
+    "aliases": [
+      "贵州",
+      "贵州省"
+    ]
+  },
+  {
+    "code": "530000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "云南省",
+      "en": ""
+    },
+    "aliases": [
+      "云南",
+      "云南省"
+    ]
+  },
+  {
+    "code": "540000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "西藏自治区",
+      "en": ""
+    },
+    "aliases": [
+      "西藏",
+      "西藏自治区"
+    ]
+  },
+  {
+    "code": "610000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "陕西省",
+      "en": ""
+    },
+    "aliases": [
+      "陕西",
+      "陕西省"
+    ]
+  },
+  {
+    "code": "620000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "甘肃省",
+      "en": ""
+    },
+    "aliases": [
+      "甘肃",
+      "甘肃省"
+    ]
+  },
+  {
+    "code": "630000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "青海省",
+      "en": ""
+    },
+    "aliases": [
+      "青海",
+      "青海省"
+    ]
+  },
+  {
+    "code": "640000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "宁夏回族自治区",
+      "en": ""
+    },
+    "aliases": [
+      "宁夏",
+      "宁夏回族自治区"
+    ]
+  },
+  {
+    "code": "650000",
+    "parentCode": "CN",
+    "level": "province",
+    "name": {
+      "zhHans": "新疆维吾尔自治区",
+      "en": ""
+    },
+    "aliases": [
+      "新疆",
+      "新疆维吾尔自治区"
+    ]
+  },
+  {
+    "code": "110100",
+    "parentCode": "110000",
+    "level": "city",
+    "name": {
+      "zhHans": "北京市",
+      "en": ""
+    },
+    "aliases": [
+      "北京",
+      "北京市"
+    ]
+  },
+  {
+    "code": "120100",
+    "parentCode": "120000",
+    "level": "city",
+    "name": {
+      "zhHans": "天津市",
+      "en": ""
+    },
+    "aliases": [
+      "天津",
+      "天津市"
+    ]
+  },
+  {
+    "code": "130100",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "石家庄市",
+      "en": ""
+    },
+    "aliases": [
+      "石家庄",
+      "石家庄市"
+    ]
+  },
+  {
+    "code": "130200",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "唐山市",
+      "en": ""
+    },
+    "aliases": [
+      "唐山",
+      "唐山市"
+    ]
+  },
+  {
+    "code": "130300",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "秦皇岛市",
+      "en": ""
+    },
+    "aliases": [
+      "秦皇岛",
+      "秦皇岛市"
+    ]
+  },
+  {
+    "code": "130400",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "邯郸市",
+      "en": ""
+    },
+    "aliases": [
+      "邯郸",
+      "邯郸市"
+    ]
+  },
+  {
+    "code": "130500",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "邢台市",
+      "en": ""
+    },
+    "aliases": [
+      "邢台",
+      "邢台市"
+    ]
+  },
+  {
+    "code": "130600",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "保定市",
+      "en": ""
+    },
+    "aliases": [
+      "保定",
+      "保定市"
+    ]
+  },
+  {
+    "code": "130700",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "张家口市",
+      "en": ""
+    },
+    "aliases": [
+      "张家口",
+      "张家口市"
+    ]
+  },
+  {
+    "code": "130800",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "承德市",
+      "en": ""
+    },
+    "aliases": [
+      "承德",
+      "承德市"
+    ]
+  },
+  {
+    "code": "130900",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "沧州市",
+      "en": ""
+    },
+    "aliases": [
+      "沧州",
+      "沧州市"
+    ]
+  },
+  {
+    "code": "131000",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "廊坊市",
+      "en": ""
+    },
+    "aliases": [
+      "廊坊",
+      "廊坊市"
+    ]
+  },
+  {
+    "code": "131100",
+    "parentCode": "130000",
+    "level": "city",
+    "name": {
+      "zhHans": "衡水市",
+      "en": ""
+    },
+    "aliases": [
+      "衡水",
+      "衡水市"
+    ]
+  },
+  {
+    "code": "140100",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "太原市",
+      "en": ""
+    },
+    "aliases": [
+      "太原",
+      "太原市"
+    ]
+  },
+  {
+    "code": "140200",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "大同市",
+      "en": ""
+    },
+    "aliases": [
+      "大同",
+      "大同市"
+    ]
+  },
+  {
+    "code": "140300",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "阳泉市",
+      "en": ""
+    },
+    "aliases": [
+      "阳泉",
+      "阳泉市"
+    ]
+  },
+  {
+    "code": "140400",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "长治市",
+      "en": ""
+    },
+    "aliases": [
+      "长治",
+      "长治市"
+    ]
+  },
+  {
+    "code": "140500",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "晋城市",
+      "en": ""
+    },
+    "aliases": [
+      "晋城",
+      "晋城市"
+    ]
+  },
+  {
+    "code": "140600",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "朔州市",
+      "en": ""
+    },
+    "aliases": [
+      "朔州",
+      "朔州市"
+    ]
+  },
+  {
+    "code": "140700",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "晋中市",
+      "en": ""
+    },
+    "aliases": [
+      "晋中",
+      "晋中市"
+    ]
+  },
+  {
+    "code": "140800",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "运城市",
+      "en": ""
+    },
+    "aliases": [
+      "运城",
+      "运城市"
+    ]
+  },
+  {
+    "code": "140900",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "忻州市",
+      "en": ""
+    },
+    "aliases": [
+      "忻州",
+      "忻州市"
+    ]
+  },
+  {
+    "code": "141000",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "临汾市",
+      "en": ""
+    },
+    "aliases": [
+      "临汾",
+      "临汾市"
+    ]
+  },
+  {
+    "code": "141100",
+    "parentCode": "140000",
+    "level": "city",
+    "name": {
+      "zhHans": "吕梁市",
+      "en": ""
+    },
+    "aliases": [
+      "吕梁",
+      "吕梁市"
+    ]
+  },
+  {
+    "code": "150100",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "呼和浩特市",
+      "en": ""
+    },
+    "aliases": [
+      "呼和浩特",
+      "呼和浩特市"
+    ]
+  },
+  {
+    "code": "150200",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "包头市",
+      "en": ""
+    },
+    "aliases": [
+      "包头",
+      "包头市"
+    ]
+  },
+  {
+    "code": "150300",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "乌海市",
+      "en": ""
+    },
+    "aliases": [
+      "乌海",
+      "乌海市"
+    ]
+  },
+  {
+    "code": "150400",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "赤峰市",
+      "en": ""
+    },
+    "aliases": [
+      "赤峰",
+      "赤峰市"
+    ]
+  },
+  {
+    "code": "150500",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "通辽市",
+      "en": ""
+    },
+    "aliases": [
+      "通辽",
+      "通辽市"
+    ]
+  },
+  {
+    "code": "150600",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "鄂尔多斯市",
+      "en": ""
+    },
+    "aliases": [
+      "鄂尔多斯",
+      "鄂尔多斯市"
+    ]
+  },
+  {
+    "code": "150700",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "呼伦贝尔市",
+      "en": ""
+    },
+    "aliases": [
+      "呼伦贝尔",
+      "呼伦贝尔市"
+    ]
+  },
+  {
+    "code": "150800",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "巴彦淖尔市",
+      "en": ""
+    },
+    "aliases": [
+      "巴彦淖尔",
+      "巴彦淖尔市"
+    ]
+  },
+  {
+    "code": "150900",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "乌兰察布市",
+      "en": ""
+    },
+    "aliases": [
+      "乌兰察布",
+      "乌兰察布市"
+    ]
+  },
+  {
+    "code": "152200",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "兴安盟",
+      "en": ""
+    },
+    "aliases": [
+      "兴安",
+      "兴安盟"
+    ]
+  },
+  {
+    "code": "152500",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "锡林郭勒盟",
+      "en": ""
+    },
+    "aliases": [
+      "锡林郭勒",
+      "锡林郭勒盟"
+    ]
+  },
+  {
+    "code": "152900",
+    "parentCode": "150000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿拉善盟",
+      "en": ""
+    },
+    "aliases": [
+      "阿拉善",
+      "阿拉善盟"
+    ]
+  },
+  {
+    "code": "210100",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "沈阳市",
+      "en": ""
+    },
+    "aliases": [
+      "沈阳",
+      "沈阳市"
+    ]
+  },
+  {
+    "code": "210200",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "大连市",
+      "en": ""
+    },
+    "aliases": [
+      "大连",
+      "大连市"
+    ]
+  },
+  {
+    "code": "210300",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "鞍山市",
+      "en": ""
+    },
+    "aliases": [
+      "鞍山",
+      "鞍山市"
+    ]
+  },
+  {
+    "code": "210400",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "抚顺市",
+      "en": ""
+    },
+    "aliases": [
+      "抚顺",
+      "抚顺市"
+    ]
+  },
+  {
+    "code": "210500",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "本溪市",
+      "en": ""
+    },
+    "aliases": [
+      "本溪",
+      "本溪市"
+    ]
+  },
+  {
+    "code": "210600",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "丹东市",
+      "en": ""
+    },
+    "aliases": [
+      "丹东",
+      "丹东市"
+    ]
+  },
+  {
+    "code": "210700",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "锦州市",
+      "en": ""
+    },
+    "aliases": [
+      "锦州",
+      "锦州市"
+    ]
+  },
+  {
+    "code": "210800",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "营口市",
+      "en": ""
+    },
+    "aliases": [
+      "营口",
+      "营口市"
+    ]
+  },
+  {
+    "code": "210900",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "阜新市",
+      "en": ""
+    },
+    "aliases": [
+      "阜新",
+      "阜新市"
+    ]
+  },
+  {
+    "code": "211000",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "辽阳市",
+      "en": ""
+    },
+    "aliases": [
+      "辽阳",
+      "辽阳市"
+    ]
+  },
+  {
+    "code": "211100",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "盘锦市",
+      "en": ""
+    },
+    "aliases": [
+      "盘锦",
+      "盘锦市"
+    ]
+  },
+  {
+    "code": "211200",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "铁岭市",
+      "en": ""
+    },
+    "aliases": [
+      "铁岭",
+      "铁岭市"
+    ]
+  },
+  {
+    "code": "211300",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "朝阳市",
+      "en": ""
+    },
+    "aliases": [
+      "朝阳",
+      "朝阳市"
+    ]
+  },
+  {
+    "code": "211400",
+    "parentCode": "210000",
+    "level": "city",
+    "name": {
+      "zhHans": "葫芦岛市",
+      "en": ""
+    },
+    "aliases": [
+      "葫芦岛",
+      "葫芦岛市"
+    ]
+  },
+  {
+    "code": "220100",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "长春市",
+      "en": ""
+    },
+    "aliases": [
+      "长春",
+      "长春市"
+    ]
+  },
+  {
+    "code": "220200",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "吉林市",
+      "en": ""
+    },
+    "aliases": [
+      "吉林",
+      "吉林市"
+    ]
+  },
+  {
+    "code": "220300",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "四平市",
+      "en": ""
+    },
+    "aliases": [
+      "四平",
+      "四平市"
+    ]
+  },
+  {
+    "code": "220400",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "辽源市",
+      "en": ""
+    },
+    "aliases": [
+      "辽源",
+      "辽源市"
+    ]
+  },
+  {
+    "code": "220500",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "通化市",
+      "en": ""
+    },
+    "aliases": [
+      "通化",
+      "通化市"
+    ]
+  },
+  {
+    "code": "220600",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "白山市",
+      "en": ""
+    },
+    "aliases": [
+      "白山",
+      "白山市"
+    ]
+  },
+  {
+    "code": "220700",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "松原市",
+      "en": ""
+    },
+    "aliases": [
+      "松原",
+      "松原市"
+    ]
+  },
+  {
+    "code": "220800",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "白城市",
+      "en": ""
+    },
+    "aliases": [
+      "白城",
+      "白城市"
+    ]
+  },
+  {
+    "code": "222400",
+    "parentCode": "220000",
+    "level": "city",
+    "name": {
+      "zhHans": "延边朝鲜族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "延边朝鲜族",
+      "延边朝鲜族自治州"
+    ]
+  },
+  {
+    "code": "230100",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "哈尔滨市",
+      "en": ""
+    },
+    "aliases": [
+      "哈尔滨",
+      "哈尔滨市"
+    ]
+  },
+  {
+    "code": "230200",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "齐齐哈尔市",
+      "en": ""
+    },
+    "aliases": [
+      "齐齐哈尔",
+      "齐齐哈尔市"
+    ]
+  },
+  {
+    "code": "230300",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "鸡西市",
+      "en": ""
+    },
+    "aliases": [
+      "鸡西",
+      "鸡西市"
+    ]
+  },
+  {
+    "code": "230400",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "鹤岗市",
+      "en": ""
+    },
+    "aliases": [
+      "鹤岗",
+      "鹤岗市"
+    ]
+  },
+  {
+    "code": "230500",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "双鸭山市",
+      "en": ""
+    },
+    "aliases": [
+      "双鸭山",
+      "双鸭山市"
+    ]
+  },
+  {
+    "code": "230600",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "大庆市",
+      "en": ""
+    },
+    "aliases": [
+      "大庆",
+      "大庆市"
+    ]
+  },
+  {
+    "code": "230700",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "伊春市",
+      "en": ""
+    },
+    "aliases": [
+      "伊春",
+      "伊春市"
+    ]
+  },
+  {
+    "code": "230800",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "佳木斯市",
+      "en": ""
+    },
+    "aliases": [
+      "佳木斯",
+      "佳木斯市"
+    ]
+  },
+  {
+    "code": "230900",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "七台河市",
+      "en": ""
+    },
+    "aliases": [
+      "七台河",
+      "七台河市"
+    ]
+  },
+  {
+    "code": "231000",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "牡丹江市",
+      "en": ""
+    },
+    "aliases": [
+      "牡丹江",
+      "牡丹江市"
+    ]
+  },
+  {
+    "code": "231100",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "黑河市",
+      "en": ""
+    },
+    "aliases": [
+      "黑河",
+      "黑河市"
+    ]
+  },
+  {
+    "code": "231200",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "绥化市",
+      "en": ""
+    },
+    "aliases": [
+      "绥化",
+      "绥化市"
+    ]
+  },
+  {
+    "code": "232700",
+    "parentCode": "230000",
+    "level": "city",
+    "name": {
+      "zhHans": "大兴安岭地区",
+      "en": ""
+    },
+    "aliases": [
+      "大兴安岭",
+      "大兴安岭地区"
+    ]
+  },
+  {
+    "code": "310100",
+    "parentCode": "310000",
+    "level": "city",
+    "name": {
+      "zhHans": "上海市",
+      "en": ""
+    },
+    "aliases": [
+      "上海",
+      "上海市"
+    ]
+  },
+  {
+    "code": "320100",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "南京市",
+      "en": ""
+    },
+    "aliases": [
+      "南京",
+      "南京市"
+    ]
+  },
+  {
+    "code": "320200",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "无锡市",
+      "en": ""
+    },
+    "aliases": [
+      "无锡",
+      "无锡市"
+    ]
+  },
+  {
+    "code": "320300",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "徐州市",
+      "en": ""
+    },
+    "aliases": [
+      "徐州",
+      "徐州市"
+    ]
+  },
+  {
+    "code": "320400",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "常州市",
+      "en": ""
+    },
+    "aliases": [
+      "常州",
+      "常州市"
+    ]
+  },
+  {
+    "code": "320500",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "苏州市",
+      "en": ""
+    },
+    "aliases": [
+      "苏州",
+      "苏州市"
+    ]
+  },
+  {
+    "code": "320600",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "南通市",
+      "en": ""
+    },
+    "aliases": [
+      "南通",
+      "南通市"
+    ]
+  },
+  {
+    "code": "320700",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "连云港市",
+      "en": ""
+    },
+    "aliases": [
+      "连云港",
+      "连云港市"
+    ]
+  },
+  {
+    "code": "320800",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "淮安市",
+      "en": ""
+    },
+    "aliases": [
+      "淮安",
+      "淮安市"
+    ]
+  },
+  {
+    "code": "320900",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "盐城市",
+      "en": ""
+    },
+    "aliases": [
+      "盐城",
+      "盐城市"
+    ]
+  },
+  {
+    "code": "321000",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "扬州市",
+      "en": ""
+    },
+    "aliases": [
+      "扬州",
+      "扬州市"
+    ]
+  },
+  {
+    "code": "321100",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "镇江市",
+      "en": ""
+    },
+    "aliases": [
+      "镇江",
+      "镇江市"
+    ]
+  },
+  {
+    "code": "321200",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "泰州市",
+      "en": ""
+    },
+    "aliases": [
+      "泰州",
+      "泰州市"
+    ]
+  },
+  {
+    "code": "321300",
+    "parentCode": "320000",
+    "level": "city",
+    "name": {
+      "zhHans": "宿迁市",
+      "en": ""
+    },
+    "aliases": [
+      "宿迁",
+      "宿迁市"
+    ]
+  },
+  {
+    "code": "330100",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "杭州市",
+      "en": ""
+    },
+    "aliases": [
+      "杭州",
+      "杭州市"
+    ]
+  },
+  {
+    "code": "330200",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "宁波市",
+      "en": ""
+    },
+    "aliases": [
+      "宁波",
+      "宁波市"
+    ]
+  },
+  {
+    "code": "330300",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "温州市",
+      "en": ""
+    },
+    "aliases": [
+      "温州",
+      "温州市"
+    ]
+  },
+  {
+    "code": "330400",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "嘉兴市",
+      "en": ""
+    },
+    "aliases": [
+      "嘉兴",
+      "嘉兴市"
+    ]
+  },
+  {
+    "code": "330500",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "湖州市",
+      "en": ""
+    },
+    "aliases": [
+      "湖州",
+      "湖州市"
+    ]
+  },
+  {
+    "code": "330600",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "绍兴市",
+      "en": ""
+    },
+    "aliases": [
+      "绍兴",
+      "绍兴市"
+    ]
+  },
+  {
+    "code": "330700",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "金华市",
+      "en": ""
+    },
+    "aliases": [
+      "金华",
+      "金华市"
+    ]
+  },
+  {
+    "code": "330800",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "衢州市",
+      "en": ""
+    },
+    "aliases": [
+      "衢州",
+      "衢州市"
+    ]
+  },
+  {
+    "code": "330900",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "舟山市",
+      "en": ""
+    },
+    "aliases": [
+      "舟山",
+      "舟山市"
+    ]
+  },
+  {
+    "code": "331000",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "台州市",
+      "en": ""
+    },
+    "aliases": [
+      "台州",
+      "台州市"
+    ]
+  },
+  {
+    "code": "331100",
+    "parentCode": "330000",
+    "level": "city",
+    "name": {
+      "zhHans": "丽水市",
+      "en": ""
+    },
+    "aliases": [
+      "丽水",
+      "丽水市"
+    ]
+  },
+  {
+    "code": "340100",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "合肥市",
+      "en": ""
+    },
+    "aliases": [
+      "合肥",
+      "合肥市"
+    ]
+  },
+  {
+    "code": "340200",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "芜湖市",
+      "en": ""
+    },
+    "aliases": [
+      "芜湖",
+      "芜湖市"
+    ]
+  },
+  {
+    "code": "340300",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "蚌埠市",
+      "en": ""
+    },
+    "aliases": [
+      "蚌埠",
+      "蚌埠市"
+    ]
+  },
+  {
+    "code": "340400",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "淮南市",
+      "en": ""
+    },
+    "aliases": [
+      "淮南",
+      "淮南市"
+    ]
+  },
+  {
+    "code": "340500",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "马鞍山市",
+      "en": ""
+    },
+    "aliases": [
+      "马鞍山",
+      "马鞍山市"
+    ]
+  },
+  {
+    "code": "340600",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "淮北市",
+      "en": ""
+    },
+    "aliases": [
+      "淮北",
+      "淮北市"
+    ]
+  },
+  {
+    "code": "340700",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "铜陵市",
+      "en": ""
+    },
+    "aliases": [
+      "铜陵",
+      "铜陵市"
+    ]
+  },
+  {
+    "code": "340800",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "安庆市",
+      "en": ""
+    },
+    "aliases": [
+      "安庆",
+      "安庆市"
+    ]
+  },
+  {
+    "code": "341000",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "黄山市",
+      "en": ""
+    },
+    "aliases": [
+      "黄山",
+      "黄山市"
+    ]
+  },
+  {
+    "code": "341100",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "滁州市",
+      "en": ""
+    },
+    "aliases": [
+      "滁州",
+      "滁州市"
+    ]
+  },
+  {
+    "code": "341200",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "阜阳市",
+      "en": ""
+    },
+    "aliases": [
+      "阜阳",
+      "阜阳市"
+    ]
+  },
+  {
+    "code": "341300",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "宿州市",
+      "en": ""
+    },
+    "aliases": [
+      "宿州",
+      "宿州市"
+    ]
+  },
+  {
+    "code": "341500",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "六安市",
+      "en": ""
+    },
+    "aliases": [
+      "六安",
+      "六安市"
+    ]
+  },
+  {
+    "code": "341600",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "亳州市",
+      "en": ""
+    },
+    "aliases": [
+      "亳州",
+      "亳州市"
+    ]
+  },
+  {
+    "code": "341700",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "池州市",
+      "en": ""
+    },
+    "aliases": [
+      "池州",
+      "池州市"
+    ]
+  },
+  {
+    "code": "341800",
+    "parentCode": "340000",
+    "level": "city",
+    "name": {
+      "zhHans": "宣城市",
+      "en": ""
+    },
+    "aliases": [
+      "宣城",
+      "宣城市"
+    ]
+  },
+  {
+    "code": "350100",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "福州市",
+      "en": ""
+    },
+    "aliases": [
+      "福州",
+      "福州市"
+    ]
+  },
+  {
+    "code": "350200",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "厦门市",
+      "en": ""
+    },
+    "aliases": [
+      "厦门",
+      "厦门市"
+    ]
+  },
+  {
+    "code": "350300",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "莆田市",
+      "en": ""
+    },
+    "aliases": [
+      "莆田",
+      "莆田市"
+    ]
+  },
+  {
+    "code": "350400",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "三明市",
+      "en": ""
+    },
+    "aliases": [
+      "三明",
+      "三明市"
+    ]
+  },
+  {
+    "code": "350500",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "泉州市",
+      "en": ""
+    },
+    "aliases": [
+      "泉州",
+      "泉州市"
+    ]
+  },
+  {
+    "code": "350600",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "漳州市",
+      "en": ""
+    },
+    "aliases": [
+      "漳州",
+      "漳州市"
+    ]
+  },
+  {
+    "code": "350700",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "南平市",
+      "en": ""
+    },
+    "aliases": [
+      "南平",
+      "南平市"
+    ]
+  },
+  {
+    "code": "350800",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "龙岩市",
+      "en": ""
+    },
+    "aliases": [
+      "龙岩",
+      "龙岩市"
+    ]
+  },
+  {
+    "code": "350900",
+    "parentCode": "350000",
+    "level": "city",
+    "name": {
+      "zhHans": "宁德市",
+      "en": ""
+    },
+    "aliases": [
+      "宁德",
+      "宁德市"
+    ]
+  },
+  {
+    "code": "360100",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "南昌市",
+      "en": ""
+    },
+    "aliases": [
+      "南昌",
+      "南昌市"
+    ]
+  },
+  {
+    "code": "360200",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "景德镇市",
+      "en": ""
+    },
+    "aliases": [
+      "景德镇",
+      "景德镇市"
+    ]
+  },
+  {
+    "code": "360300",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "萍乡市",
+      "en": ""
+    },
+    "aliases": [
+      "萍乡",
+      "萍乡市"
+    ]
+  },
+  {
+    "code": "360400",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "九江市",
+      "en": ""
+    },
+    "aliases": [
+      "九江",
+      "九江市"
+    ]
+  },
+  {
+    "code": "360500",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "新余市",
+      "en": ""
+    },
+    "aliases": [
+      "新余",
+      "新余市"
+    ]
+  },
+  {
+    "code": "360600",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "鹰潭市",
+      "en": ""
+    },
+    "aliases": [
+      "鹰潭",
+      "鹰潭市"
+    ]
+  },
+  {
+    "code": "360700",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "赣州市",
+      "en": ""
+    },
+    "aliases": [
+      "赣州",
+      "赣州市"
+    ]
+  },
+  {
+    "code": "360800",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "吉安市",
+      "en": ""
+    },
+    "aliases": [
+      "吉安",
+      "吉安市"
+    ]
+  },
+  {
+    "code": "360900",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "宜春市",
+      "en": ""
+    },
+    "aliases": [
+      "宜春",
+      "宜春市"
+    ]
+  },
+  {
+    "code": "361000",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "抚州市",
+      "en": ""
+    },
+    "aliases": [
+      "抚州",
+      "抚州市"
+    ]
+  },
+  {
+    "code": "361100",
+    "parentCode": "360000",
+    "level": "city",
+    "name": {
+      "zhHans": "上饶市",
+      "en": ""
+    },
+    "aliases": [
+      "上饶",
+      "上饶市"
+    ]
+  },
+  {
+    "code": "370100",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "济南市",
+      "en": ""
+    },
+    "aliases": [
+      "济南",
+      "济南市"
+    ]
+  },
+  {
+    "code": "370200",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "青岛市",
+      "en": ""
+    },
+    "aliases": [
+      "青岛",
+      "青岛市"
+    ]
+  },
+  {
+    "code": "370300",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "淄博市",
+      "en": ""
+    },
+    "aliases": [
+      "淄博",
+      "淄博市"
+    ]
+  },
+  {
+    "code": "370400",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "枣庄市",
+      "en": ""
+    },
+    "aliases": [
+      "枣庄",
+      "枣庄市"
+    ]
+  },
+  {
+    "code": "370500",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "东营市",
+      "en": ""
+    },
+    "aliases": [
+      "东营",
+      "东营市"
+    ]
+  },
+  {
+    "code": "370600",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "烟台市",
+      "en": ""
+    },
+    "aliases": [
+      "烟台",
+      "烟台市"
+    ]
+  },
+  {
+    "code": "370700",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "潍坊市",
+      "en": ""
+    },
+    "aliases": [
+      "潍坊",
+      "潍坊市"
+    ]
+  },
+  {
+    "code": "370800",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "济宁市",
+      "en": ""
+    },
+    "aliases": [
+      "济宁",
+      "济宁市"
+    ]
+  },
+  {
+    "code": "370900",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "泰安市",
+      "en": ""
+    },
+    "aliases": [
+      "泰安",
+      "泰安市"
+    ]
+  },
+  {
+    "code": "371000",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "威海市",
+      "en": ""
+    },
+    "aliases": [
+      "威海",
+      "威海市"
+    ]
+  },
+  {
+    "code": "371100",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "日照市",
+      "en": ""
+    },
+    "aliases": [
+      "日照",
+      "日照市"
+    ]
+  },
+  {
+    "code": "371300",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "临沂市",
+      "en": ""
+    },
+    "aliases": [
+      "临沂",
+      "临沂市"
+    ]
+  },
+  {
+    "code": "371400",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "德州市",
+      "en": ""
+    },
+    "aliases": [
+      "德州",
+      "德州市"
+    ]
+  },
+  {
+    "code": "371500",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "聊城市",
+      "en": ""
+    },
+    "aliases": [
+      "聊城",
+      "聊城市"
+    ]
+  },
+  {
+    "code": "371600",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "滨州市",
+      "en": ""
+    },
+    "aliases": [
+      "滨州",
+      "滨州市"
+    ]
+  },
+  {
+    "code": "371700",
+    "parentCode": "370000",
+    "level": "city",
+    "name": {
+      "zhHans": "菏泽市",
+      "en": ""
+    },
+    "aliases": [
+      "菏泽",
+      "菏泽市"
+    ]
+  },
+  {
+    "code": "410100",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "郑州市",
+      "en": ""
+    },
+    "aliases": [
+      "郑州",
+      "郑州市"
+    ]
+  },
+  {
+    "code": "410200",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "开封市",
+      "en": ""
+    },
+    "aliases": [
+      "开封",
+      "开封市"
+    ]
+  },
+  {
+    "code": "410300",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "洛阳市",
+      "en": ""
+    },
+    "aliases": [
+      "洛阳",
+      "洛阳市"
+    ]
+  },
+  {
+    "code": "410400",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "平顶山市",
+      "en": ""
+    },
+    "aliases": [
+      "平顶山",
+      "平顶山市"
+    ]
+  },
+  {
+    "code": "410500",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "安阳市",
+      "en": ""
+    },
+    "aliases": [
+      "安阳",
+      "安阳市"
+    ]
+  },
+  {
+    "code": "410600",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "鹤壁市",
+      "en": ""
+    },
+    "aliases": [
+      "鹤壁",
+      "鹤壁市"
+    ]
+  },
+  {
+    "code": "410700",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "新乡市",
+      "en": ""
+    },
+    "aliases": [
+      "新乡",
+      "新乡市"
+    ]
+  },
+  {
+    "code": "410800",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "焦作市",
+      "en": ""
+    },
+    "aliases": [
+      "焦作",
+      "焦作市"
+    ]
+  },
+  {
+    "code": "410900",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "濮阳市",
+      "en": ""
+    },
+    "aliases": [
+      "濮阳",
+      "濮阳市"
+    ]
+  },
+  {
+    "code": "411000",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "许昌市",
+      "en": ""
+    },
+    "aliases": [
+      "许昌",
+      "许昌市"
+    ]
+  },
+  {
+    "code": "411100",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "漯河市",
+      "en": ""
+    },
+    "aliases": [
+      "漯河",
+      "漯河市"
+    ]
+  },
+  {
+    "code": "411200",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "三门峡市",
+      "en": ""
+    },
+    "aliases": [
+      "三门峡",
+      "三门峡市"
+    ]
+  },
+  {
+    "code": "411300",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "南阳市",
+      "en": ""
+    },
+    "aliases": [
+      "南阳",
+      "南阳市"
+    ]
+  },
+  {
+    "code": "411400",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "商丘市",
+      "en": ""
+    },
+    "aliases": [
+      "商丘",
+      "商丘市"
+    ]
+  },
+  {
+    "code": "411500",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "信阳市",
+      "en": ""
+    },
+    "aliases": [
+      "信阳",
+      "信阳市"
+    ]
+  },
+  {
+    "code": "411600",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "周口市",
+      "en": ""
+    },
+    "aliases": [
+      "周口",
+      "周口市"
+    ]
+  },
+  {
+    "code": "411700",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "驻马店市",
+      "en": ""
+    },
+    "aliases": [
+      "驻马店",
+      "驻马店市"
+    ]
+  },
+  {
+    "code": "419001",
+    "parentCode": "410000",
+    "level": "city",
+    "name": {
+      "zhHans": "济源市",
+      "en": ""
+    },
+    "aliases": [
+      "济源",
+      "济源市"
+    ]
+  },
+  {
+    "code": "420100",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "武汉市",
+      "en": ""
+    },
+    "aliases": [
+      "武汉",
+      "武汉市"
+    ]
+  },
+  {
+    "code": "420200",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "黄石市",
+      "en": ""
+    },
+    "aliases": [
+      "黄石",
+      "黄石市"
+    ]
+  },
+  {
+    "code": "420300",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "十堰市",
+      "en": ""
+    },
+    "aliases": [
+      "十堰",
+      "十堰市"
+    ]
+  },
+  {
+    "code": "420500",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "宜昌市",
+      "en": ""
+    },
+    "aliases": [
+      "宜昌",
+      "宜昌市"
+    ]
+  },
+  {
+    "code": "420600",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "襄阳市",
+      "en": ""
+    },
+    "aliases": [
+      "襄阳",
+      "襄阳市"
+    ]
+  },
+  {
+    "code": "420700",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "鄂州市",
+      "en": ""
+    },
+    "aliases": [
+      "鄂州",
+      "鄂州市"
+    ]
+  },
+  {
+    "code": "420800",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "荆门市",
+      "en": ""
+    },
+    "aliases": [
+      "荆门",
+      "荆门市"
+    ]
+  },
+  {
+    "code": "420900",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "孝感市",
+      "en": ""
+    },
+    "aliases": [
+      "孝感",
+      "孝感市"
+    ]
+  },
+  {
+    "code": "421000",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "荆州市",
+      "en": ""
+    },
+    "aliases": [
+      "荆州",
+      "荆州市"
+    ]
+  },
+  {
+    "code": "421100",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "黄冈市",
+      "en": ""
+    },
+    "aliases": [
+      "黄冈",
+      "黄冈市"
+    ]
+  },
+  {
+    "code": "421200",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "咸宁市",
+      "en": ""
+    },
+    "aliases": [
+      "咸宁",
+      "咸宁市"
+    ]
+  },
+  {
+    "code": "421300",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "随州市",
+      "en": ""
+    },
+    "aliases": [
+      "随州",
+      "随州市"
+    ]
+  },
+  {
+    "code": "422800",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "恩施土家族苗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "恩施土家族苗族",
+      "恩施土家族苗族自治州"
+    ]
+  },
+  {
+    "code": "429004",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "仙桃市",
+      "en": ""
+    },
+    "aliases": [
+      "仙桃",
+      "仙桃市"
+    ]
+  },
+  {
+    "code": "429005",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "潜江市",
+      "en": ""
+    },
+    "aliases": [
+      "潜江",
+      "潜江市"
+    ]
+  },
+  {
+    "code": "429006",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "天门市",
+      "en": ""
+    },
+    "aliases": [
+      "天门",
+      "天门市"
+    ]
+  },
+  {
+    "code": "429021",
+    "parentCode": "420000",
+    "level": "city",
+    "name": {
+      "zhHans": "神农架林区",
+      "en": ""
+    },
+    "aliases": [
+      "神农架林区"
+    ]
+  },
+  {
+    "code": "430100",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "长沙市",
+      "en": ""
+    },
+    "aliases": [
+      "长沙",
+      "长沙市"
+    ]
+  },
+  {
+    "code": "430200",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "株洲市",
+      "en": ""
+    },
+    "aliases": [
+      "株洲",
+      "株洲市"
+    ]
+  },
+  {
+    "code": "430300",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "湘潭市",
+      "en": ""
+    },
+    "aliases": [
+      "湘潭",
+      "湘潭市"
+    ]
+  },
+  {
+    "code": "430400",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "衡阳市",
+      "en": ""
+    },
+    "aliases": [
+      "衡阳",
+      "衡阳市"
+    ]
+  },
+  {
+    "code": "430500",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "邵阳市",
+      "en": ""
+    },
+    "aliases": [
+      "邵阳",
+      "邵阳市"
+    ]
+  },
+  {
+    "code": "430600",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "岳阳市",
+      "en": ""
+    },
+    "aliases": [
+      "岳阳",
+      "岳阳市"
+    ]
+  },
+  {
+    "code": "430700",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "常德市",
+      "en": ""
+    },
+    "aliases": [
+      "常德",
+      "常德市"
+    ]
+  },
+  {
+    "code": "430800",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "张家界市",
+      "en": ""
+    },
+    "aliases": [
+      "张家界",
+      "张家界市"
+    ]
+  },
+  {
+    "code": "430900",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "益阳市",
+      "en": ""
+    },
+    "aliases": [
+      "益阳",
+      "益阳市"
+    ]
+  },
+  {
+    "code": "431000",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "郴州市",
+      "en": ""
+    },
+    "aliases": [
+      "郴州",
+      "郴州市"
+    ]
+  },
+  {
+    "code": "431100",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "永州市",
+      "en": ""
+    },
+    "aliases": [
+      "永州",
+      "永州市"
+    ]
+  },
+  {
+    "code": "431200",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "怀化市",
+      "en": ""
+    },
+    "aliases": [
+      "怀化",
+      "怀化市"
+    ]
+  },
+  {
+    "code": "431300",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "娄底市",
+      "en": ""
+    },
+    "aliases": [
+      "娄底",
+      "娄底市"
+    ]
+  },
+  {
+    "code": "433100",
+    "parentCode": "430000",
+    "level": "city",
+    "name": {
+      "zhHans": "湘西土家族苗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "湘西土家族苗族",
+      "湘西土家族苗族自治州"
+    ]
+  },
+  {
+    "code": "440100",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "广州市",
+      "en": ""
+    },
+    "aliases": [
+      "广州",
+      "广州市"
+    ]
+  },
+  {
+    "code": "440200",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "韶关市",
+      "en": ""
+    },
+    "aliases": [
+      "韶关",
+      "韶关市"
+    ]
+  },
+  {
+    "code": "440300",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "深圳市",
+      "en": ""
+    },
+    "aliases": [
+      "深圳",
+      "深圳市"
+    ]
+  },
+  {
+    "code": "440400",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "珠海市",
+      "en": ""
+    },
+    "aliases": [
+      "珠海",
+      "珠海市"
+    ]
+  },
+  {
+    "code": "440500",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "汕头市",
+      "en": ""
+    },
+    "aliases": [
+      "汕头",
+      "汕头市"
+    ]
+  },
+  {
+    "code": "440600",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "佛山市",
+      "en": ""
+    },
+    "aliases": [
+      "佛山",
+      "佛山市"
+    ]
+  },
+  {
+    "code": "440700",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "江门市",
+      "en": ""
+    },
+    "aliases": [
+      "江门",
+      "江门市"
+    ]
+  },
+  {
+    "code": "440800",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "湛江市",
+      "en": ""
+    },
+    "aliases": [
+      "湛江",
+      "湛江市"
+    ]
+  },
+  {
+    "code": "440900",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "茂名市",
+      "en": ""
+    },
+    "aliases": [
+      "茂名",
+      "茂名市"
+    ]
+  },
+  {
+    "code": "441200",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "肇庆市",
+      "en": ""
+    },
+    "aliases": [
+      "肇庆",
+      "肇庆市"
+    ]
+  },
+  {
+    "code": "441300",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "惠州市",
+      "en": ""
+    },
+    "aliases": [
+      "惠州",
+      "惠州市"
+    ]
+  },
+  {
+    "code": "441400",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "梅州市",
+      "en": ""
+    },
+    "aliases": [
+      "梅州",
+      "梅州市"
+    ]
+  },
+  {
+    "code": "441500",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "汕尾市",
+      "en": ""
+    },
+    "aliases": [
+      "汕尾",
+      "汕尾市"
+    ]
+  },
+  {
+    "code": "441600",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "河源市",
+      "en": ""
+    },
+    "aliases": [
+      "河源",
+      "河源市"
+    ]
+  },
+  {
+    "code": "441700",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "阳江市",
+      "en": ""
+    },
+    "aliases": [
+      "阳江",
+      "阳江市"
+    ]
+  },
+  {
+    "code": "441800",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "清远市",
+      "en": ""
+    },
+    "aliases": [
+      "清远",
+      "清远市"
+    ]
+  },
+  {
+    "code": "441900",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "东莞市",
+      "en": ""
+    },
+    "aliases": [
+      "东莞",
+      "东莞市"
+    ]
+  },
+  {
+    "code": "442000",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "中山市",
+      "en": ""
+    },
+    "aliases": [
+      "中山",
+      "中山市"
+    ]
+  },
+  {
+    "code": "445100",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "潮州市",
+      "en": ""
+    },
+    "aliases": [
+      "潮州",
+      "潮州市"
+    ]
+  },
+  {
+    "code": "445200",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "揭阳市",
+      "en": ""
+    },
+    "aliases": [
+      "揭阳",
+      "揭阳市"
+    ]
+  },
+  {
+    "code": "445300",
+    "parentCode": "440000",
+    "level": "city",
+    "name": {
+      "zhHans": "云浮市",
+      "en": ""
+    },
+    "aliases": [
+      "云浮",
+      "云浮市"
+    ]
+  },
+  {
+    "code": "450100",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "南宁市",
+      "en": ""
+    },
+    "aliases": [
+      "南宁",
+      "南宁市"
+    ]
+  },
+  {
+    "code": "450200",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "柳州市",
+      "en": ""
+    },
+    "aliases": [
+      "柳州",
+      "柳州市"
+    ]
+  },
+  {
+    "code": "450300",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "桂林市",
+      "en": ""
+    },
+    "aliases": [
+      "桂林",
+      "桂林市"
+    ]
+  },
+  {
+    "code": "450400",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "梧州市",
+      "en": ""
+    },
+    "aliases": [
+      "梧州",
+      "梧州市"
+    ]
+  },
+  {
+    "code": "450500",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "北海市",
+      "en": ""
+    },
+    "aliases": [
+      "北海",
+      "北海市"
+    ]
+  },
+  {
+    "code": "450600",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "防城港市",
+      "en": ""
+    },
+    "aliases": [
+      "防城港",
+      "防城港市"
+    ]
+  },
+  {
+    "code": "450700",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "钦州市",
+      "en": ""
+    },
+    "aliases": [
+      "钦州",
+      "钦州市"
+    ]
+  },
+  {
+    "code": "450800",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "贵港市",
+      "en": ""
+    },
+    "aliases": [
+      "贵港",
+      "贵港市"
+    ]
+  },
+  {
+    "code": "450900",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "玉林市",
+      "en": ""
+    },
+    "aliases": [
+      "玉林",
+      "玉林市"
+    ]
+  },
+  {
+    "code": "451000",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "百色市",
+      "en": ""
+    },
+    "aliases": [
+      "百色",
+      "百色市"
+    ]
+  },
+  {
+    "code": "451100",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "贺州市",
+      "en": ""
+    },
+    "aliases": [
+      "贺州",
+      "贺州市"
+    ]
+  },
+  {
+    "code": "451200",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "河池市",
+      "en": ""
+    },
+    "aliases": [
+      "河池",
+      "河池市"
+    ]
+  },
+  {
+    "code": "451300",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "来宾市",
+      "en": ""
+    },
+    "aliases": [
+      "来宾",
+      "来宾市"
+    ]
+  },
+  {
+    "code": "451400",
+    "parentCode": "450000",
+    "level": "city",
+    "name": {
+      "zhHans": "崇左市",
+      "en": ""
+    },
+    "aliases": [
+      "崇左",
+      "崇左市"
+    ]
+  },
+  {
+    "code": "460100",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "海口市",
+      "en": ""
+    },
+    "aliases": [
+      "海口",
+      "海口市"
+    ]
+  },
+  {
+    "code": "460200",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "三亚市",
+      "en": ""
+    },
+    "aliases": [
+      "三亚",
+      "三亚市"
+    ]
+  },
+  {
+    "code": "460300",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "三沙市",
+      "en": ""
+    },
+    "aliases": [
+      "三沙",
+      "三沙市"
+    ]
+  },
+  {
+    "code": "460400",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "儋州市",
+      "en": ""
+    },
+    "aliases": [
+      "儋州",
+      "儋州市"
+    ]
+  },
+  {
+    "code": "469001",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "五指山市",
+      "en": ""
+    },
+    "aliases": [
+      "五指山",
+      "五指山市"
+    ]
+  },
+  {
+    "code": "469002",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "琼海市",
+      "en": ""
+    },
+    "aliases": [
+      "琼海",
+      "琼海市"
+    ]
+  },
+  {
+    "code": "469005",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "文昌市",
+      "en": ""
+    },
+    "aliases": [
+      "文昌",
+      "文昌市"
+    ]
+  },
+  {
+    "code": "469006",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "万宁市",
+      "en": ""
+    },
+    "aliases": [
+      "万宁",
+      "万宁市"
+    ]
+  },
+  {
+    "code": "469007",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "东方市",
+      "en": ""
+    },
+    "aliases": [
+      "东方",
+      "东方市"
+    ]
+  },
+  {
+    "code": "469021",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "定安县",
+      "en": ""
+    },
+    "aliases": [
+      "定安县"
+    ]
+  },
+  {
+    "code": "469022",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "屯昌县",
+      "en": ""
+    },
+    "aliases": [
+      "屯昌县"
+    ]
+  },
+  {
+    "code": "469023",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "澄迈县",
+      "en": ""
+    },
+    "aliases": [
+      "澄迈县"
+    ]
+  },
+  {
+    "code": "469024",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "临高县",
+      "en": ""
+    },
+    "aliases": [
+      "临高县"
+    ]
+  },
+  {
+    "code": "469025",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "白沙黎族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "白沙黎族自治县"
+    ]
+  },
+  {
+    "code": "469026",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "昌江黎族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "昌江黎族自治县"
+    ]
+  },
+  {
+    "code": "469027",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "乐东黎族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "乐东黎族自治县"
+    ]
+  },
+  {
+    "code": "469028",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "陵水黎族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "陵水黎族自治县"
+    ]
+  },
+  {
+    "code": "469029",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "保亭黎族苗族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "保亭黎族苗族自治县"
+    ]
+  },
+  {
+    "code": "469030",
+    "parentCode": "460000",
+    "level": "city",
+    "name": {
+      "zhHans": "琼中黎族苗族自治县",
+      "en": ""
+    },
+    "aliases": [
+      "琼中黎族苗族自治县"
+    ]
+  },
+  {
+    "code": "500100",
+    "parentCode": "500000",
+    "level": "city",
+    "name": {
+      "zhHans": "重庆市",
+      "en": ""
+    },
+    "aliases": [
+      "重庆",
+      "重庆市"
+    ]
+  },
+  {
+    "code": "510100",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "成都市",
+      "en": ""
+    },
+    "aliases": [
+      "成都",
+      "成都市"
+    ]
+  },
+  {
+    "code": "510300",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "自贡市",
+      "en": ""
+    },
+    "aliases": [
+      "自贡",
+      "自贡市"
+    ]
+  },
+  {
+    "code": "510400",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "攀枝花市",
+      "en": ""
+    },
+    "aliases": [
+      "攀枝花",
+      "攀枝花市"
+    ]
+  },
+  {
+    "code": "510500",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "泸州市",
+      "en": ""
+    },
+    "aliases": [
+      "泸州",
+      "泸州市"
+    ]
+  },
+  {
+    "code": "510600",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "德阳市",
+      "en": ""
+    },
+    "aliases": [
+      "德阳",
+      "德阳市"
+    ]
+  },
+  {
+    "code": "510700",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "绵阳市",
+      "en": ""
+    },
+    "aliases": [
+      "绵阳",
+      "绵阳市"
+    ]
+  },
+  {
+    "code": "510800",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "广元市",
+      "en": ""
+    },
+    "aliases": [
+      "广元",
+      "广元市"
+    ]
+  },
+  {
+    "code": "510900",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "遂宁市",
+      "en": ""
+    },
+    "aliases": [
+      "遂宁",
+      "遂宁市"
+    ]
+  },
+  {
+    "code": "511000",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "内江市",
+      "en": ""
+    },
+    "aliases": [
+      "内江",
+      "内江市"
+    ]
+  },
+  {
+    "code": "511100",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "乐山市",
+      "en": ""
+    },
+    "aliases": [
+      "乐山",
+      "乐山市"
+    ]
+  },
+  {
+    "code": "511300",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "南充市",
+      "en": ""
+    },
+    "aliases": [
+      "南充",
+      "南充市"
+    ]
+  },
+  {
+    "code": "511400",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "眉山市",
+      "en": ""
+    },
+    "aliases": [
+      "眉山",
+      "眉山市"
+    ]
+  },
+  {
+    "code": "511500",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "宜宾市",
+      "en": ""
+    },
+    "aliases": [
+      "宜宾",
+      "宜宾市"
+    ]
+  },
+  {
+    "code": "511600",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "广安市",
+      "en": ""
+    },
+    "aliases": [
+      "广安",
+      "广安市"
+    ]
+  },
+  {
+    "code": "511700",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "达州市",
+      "en": ""
+    },
+    "aliases": [
+      "达州",
+      "达州市"
+    ]
+  },
+  {
+    "code": "511800",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "雅安市",
+      "en": ""
+    },
+    "aliases": [
+      "雅安",
+      "雅安市"
+    ]
+  },
+  {
+    "code": "511900",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "巴中市",
+      "en": ""
+    },
+    "aliases": [
+      "巴中",
+      "巴中市"
+    ]
+  },
+  {
+    "code": "512000",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "资阳市",
+      "en": ""
+    },
+    "aliases": [
+      "资阳",
+      "资阳市"
+    ]
+  },
+  {
+    "code": "513200",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿坝藏族羌族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "阿坝藏族羌族",
+      "阿坝藏族羌族自治州"
+    ]
+  },
+  {
+    "code": "513300",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "甘孜藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "甘孜藏族",
+      "甘孜藏族自治州"
+    ]
+  },
+  {
+    "code": "513400",
+    "parentCode": "510000",
+    "level": "city",
+    "name": {
+      "zhHans": "凉山彝族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "凉山彝族",
+      "凉山彝族自治州"
+    ]
+  },
+  {
+    "code": "520100",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "贵阳市",
+      "en": ""
+    },
+    "aliases": [
+      "贵阳",
+      "贵阳市"
+    ]
+  },
+  {
+    "code": "520200",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "六盘水市",
+      "en": ""
+    },
+    "aliases": [
+      "六盘水",
+      "六盘水市"
+    ]
+  },
+  {
+    "code": "520300",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "遵义市",
+      "en": ""
+    },
+    "aliases": [
+      "遵义",
+      "遵义市"
+    ]
+  },
+  {
+    "code": "520400",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "安顺市",
+      "en": ""
+    },
+    "aliases": [
+      "安顺",
+      "安顺市"
+    ]
+  },
+  {
+    "code": "520500",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "毕节市",
+      "en": ""
+    },
+    "aliases": [
+      "毕节",
+      "毕节市"
+    ]
+  },
+  {
+    "code": "520600",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "铜仁市",
+      "en": ""
+    },
+    "aliases": [
+      "铜仁",
+      "铜仁市"
+    ]
+  },
+  {
+    "code": "522300",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "黔西南布依族苗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "黔西南布依族苗族",
+      "黔西南布依族苗族自治州"
+    ]
+  },
+  {
+    "code": "522600",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "黔东南苗族侗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "黔东南苗族侗族",
+      "黔东南苗族侗族自治州"
+    ]
+  },
+  {
+    "code": "522700",
+    "parentCode": "520000",
+    "level": "city",
+    "name": {
+      "zhHans": "黔南布依族苗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "黔南布依族苗族",
+      "黔南布依族苗族自治州"
+    ]
+  },
+  {
+    "code": "530100",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "昆明市",
+      "en": ""
+    },
+    "aliases": [
+      "昆明",
+      "昆明市"
+    ]
+  },
+  {
+    "code": "530300",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "曲靖市",
+      "en": ""
+    },
+    "aliases": [
+      "曲靖",
+      "曲靖市"
+    ]
+  },
+  {
+    "code": "530400",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "玉溪市",
+      "en": ""
+    },
+    "aliases": [
+      "玉溪",
+      "玉溪市"
+    ]
+  },
+  {
+    "code": "530500",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "保山市",
+      "en": ""
+    },
+    "aliases": [
+      "保山",
+      "保山市"
+    ]
+  },
+  {
+    "code": "530600",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "昭通市",
+      "en": ""
+    },
+    "aliases": [
+      "昭通",
+      "昭通市"
+    ]
+  },
+  {
+    "code": "530700",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "丽江市",
+      "en": ""
+    },
+    "aliases": [
+      "丽江",
+      "丽江市"
+    ]
+  },
+  {
+    "code": "530800",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "普洱市",
+      "en": ""
+    },
+    "aliases": [
+      "普洱",
+      "普洱市"
+    ]
+  },
+  {
+    "code": "530900",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "临沧市",
+      "en": ""
+    },
+    "aliases": [
+      "临沧",
+      "临沧市"
+    ]
+  },
+  {
+    "code": "532300",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "楚雄彝族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "楚雄彝族",
+      "楚雄彝族自治州"
+    ]
+  },
+  {
+    "code": "532500",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "红河哈尼族彝族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "红河哈尼族彝族",
+      "红河哈尼族彝族自治州"
+    ]
+  },
+  {
+    "code": "532600",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "文山壮族苗族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "文山壮族苗族",
+      "文山壮族苗族自治州"
+    ]
+  },
+  {
+    "code": "532800",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "西双版纳傣族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "西双版纳傣族",
+      "西双版纳傣族自治州"
+    ]
+  },
+  {
+    "code": "532900",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "大理白族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "大理白族",
+      "大理白族自治州"
+    ]
+  },
+  {
+    "code": "533100",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "德宏傣族景颇族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "德宏傣族景颇族",
+      "德宏傣族景颇族自治州"
+    ]
+  },
+  {
+    "code": "533300",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "怒江傈僳族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "怒江傈僳族",
+      "怒江傈僳族自治州"
+    ]
+  },
+  {
+    "code": "533400",
+    "parentCode": "530000",
+    "level": "city",
+    "name": {
+      "zhHans": "迪庆藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "迪庆藏族",
+      "迪庆藏族自治州"
+    ]
+  },
+  {
+    "code": "540100",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "拉萨市",
+      "en": ""
+    },
+    "aliases": [
+      "拉萨",
+      "拉萨市"
+    ]
+  },
+  {
+    "code": "540200",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "日喀则市",
+      "en": ""
+    },
+    "aliases": [
+      "日喀则",
+      "日喀则市"
+    ]
+  },
+  {
+    "code": "540300",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "昌都市",
+      "en": ""
+    },
+    "aliases": [
+      "昌都",
+      "昌都市"
+    ]
+  },
+  {
+    "code": "540400",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "林芝市",
+      "en": ""
+    },
+    "aliases": [
+      "林芝",
+      "林芝市"
+    ]
+  },
+  {
+    "code": "540500",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "山南市",
+      "en": ""
+    },
+    "aliases": [
+      "山南",
+      "山南市"
+    ]
+  },
+  {
+    "code": "540600",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "那曲市",
+      "en": ""
+    },
+    "aliases": [
+      "那曲",
+      "那曲市"
+    ]
+  },
+  {
+    "code": "542500",
+    "parentCode": "540000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿里地区",
+      "en": ""
+    },
+    "aliases": [
+      "阿里",
+      "阿里地区"
+    ]
+  },
+  {
+    "code": "610100",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "西安市",
+      "en": ""
+    },
+    "aliases": [
+      "西安",
+      "西安市"
+    ]
+  },
+  {
+    "code": "610200",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "铜川市",
+      "en": ""
+    },
+    "aliases": [
+      "铜川",
+      "铜川市"
+    ]
+  },
+  {
+    "code": "610300",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "宝鸡市",
+      "en": ""
+    },
+    "aliases": [
+      "宝鸡",
+      "宝鸡市"
+    ]
+  },
+  {
+    "code": "610400",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "咸阳市",
+      "en": ""
+    },
+    "aliases": [
+      "咸阳",
+      "咸阳市"
+    ]
+  },
+  {
+    "code": "610500",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "渭南市",
+      "en": ""
+    },
+    "aliases": [
+      "渭南",
+      "渭南市"
+    ]
+  },
+  {
+    "code": "610600",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "延安市",
+      "en": ""
+    },
+    "aliases": [
+      "延安",
+      "延安市"
+    ]
+  },
+  {
+    "code": "610700",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "汉中市",
+      "en": ""
+    },
+    "aliases": [
+      "汉中",
+      "汉中市"
+    ]
+  },
+  {
+    "code": "610800",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "榆林市",
+      "en": ""
+    },
+    "aliases": [
+      "榆林",
+      "榆林市"
+    ]
+  },
+  {
+    "code": "610900",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "安康市",
+      "en": ""
+    },
+    "aliases": [
+      "安康",
+      "安康市"
+    ]
+  },
+  {
+    "code": "611000",
+    "parentCode": "610000",
+    "level": "city",
+    "name": {
+      "zhHans": "商洛市",
+      "en": ""
+    },
+    "aliases": [
+      "商洛",
+      "商洛市"
+    ]
+  },
+  {
+    "code": "620100",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "兰州市",
+      "en": ""
+    },
+    "aliases": [
+      "兰州",
+      "兰州市"
+    ]
+  },
+  {
+    "code": "620200",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "嘉峪关市",
+      "en": ""
+    },
+    "aliases": [
+      "嘉峪关",
+      "嘉峪关市"
+    ]
+  },
+  {
+    "code": "620300",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "金昌市",
+      "en": ""
+    },
+    "aliases": [
+      "金昌",
+      "金昌市"
+    ]
+  },
+  {
+    "code": "620400",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "白银市",
+      "en": ""
+    },
+    "aliases": [
+      "白银",
+      "白银市"
+    ]
+  },
+  {
+    "code": "620500",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "天水市",
+      "en": ""
+    },
+    "aliases": [
+      "天水",
+      "天水市"
+    ]
+  },
+  {
+    "code": "620600",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "武威市",
+      "en": ""
+    },
+    "aliases": [
+      "武威",
+      "武威市"
+    ]
+  },
+  {
+    "code": "620700",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "张掖市",
+      "en": ""
+    },
+    "aliases": [
+      "张掖",
+      "张掖市"
+    ]
+  },
+  {
+    "code": "620800",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "平凉市",
+      "en": ""
+    },
+    "aliases": [
+      "平凉",
+      "平凉市"
+    ]
+  },
+  {
+    "code": "620900",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "酒泉市",
+      "en": ""
+    },
+    "aliases": [
+      "酒泉",
+      "酒泉市"
+    ]
+  },
+  {
+    "code": "621000",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "庆阳市",
+      "en": ""
+    },
+    "aliases": [
+      "庆阳",
+      "庆阳市"
+    ]
+  },
+  {
+    "code": "621100",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "定西市",
+      "en": ""
+    },
+    "aliases": [
+      "定西",
+      "定西市"
+    ]
+  },
+  {
+    "code": "621200",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "陇南市",
+      "en": ""
+    },
+    "aliases": [
+      "陇南",
+      "陇南市"
+    ]
+  },
+  {
+    "code": "622900",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "临夏回族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "临夏回族",
+      "临夏回族自治州"
+    ]
+  },
+  {
+    "code": "623000",
+    "parentCode": "620000",
+    "level": "city",
+    "name": {
+      "zhHans": "甘南藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "甘南藏族",
+      "甘南藏族自治州"
+    ]
+  },
+  {
+    "code": "630100",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "西宁市",
+      "en": ""
+    },
+    "aliases": [
+      "西宁",
+      "西宁市"
+    ]
+  },
+  {
+    "code": "630200",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "海东市",
+      "en": ""
+    },
+    "aliases": [
+      "海东",
+      "海东市"
+    ]
+  },
+  {
+    "code": "632200",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "海北藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "海北藏族",
+      "海北藏族自治州"
+    ]
+  },
+  {
+    "code": "632300",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "黄南藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "黄南藏族",
+      "黄南藏族自治州"
+    ]
+  },
+  {
+    "code": "632500",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "海南藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "海南藏族",
+      "海南藏族自治州"
+    ]
+  },
+  {
+    "code": "632600",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "果洛藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "果洛藏族",
+      "果洛藏族自治州"
+    ]
+  },
+  {
+    "code": "632700",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "玉树藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "玉树藏族",
+      "玉树藏族自治州"
+    ]
+  },
+  {
+    "code": "632800",
+    "parentCode": "630000",
+    "level": "city",
+    "name": {
+      "zhHans": "海西蒙古族藏族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "海西蒙古族藏族",
+      "海西蒙古族藏族自治州"
+    ]
+  },
+  {
+    "code": "640100",
+    "parentCode": "640000",
+    "level": "city",
+    "name": {
+      "zhHans": "银川市",
+      "en": ""
+    },
+    "aliases": [
+      "银川",
+      "银川市"
+    ]
+  },
+  {
+    "code": "640200",
+    "parentCode": "640000",
+    "level": "city",
+    "name": {
+      "zhHans": "石嘴山市",
+      "en": ""
+    },
+    "aliases": [
+      "石嘴山",
+      "石嘴山市"
+    ]
+  },
+  {
+    "code": "640300",
+    "parentCode": "640000",
+    "level": "city",
+    "name": {
+      "zhHans": "吴忠市",
+      "en": ""
+    },
+    "aliases": [
+      "吴忠",
+      "吴忠市"
+    ]
+  },
+  {
+    "code": "640400",
+    "parentCode": "640000",
+    "level": "city",
+    "name": {
+      "zhHans": "固原市",
+      "en": ""
+    },
+    "aliases": [
+      "固原",
+      "固原市"
+    ]
+  },
+  {
+    "code": "640500",
+    "parentCode": "640000",
+    "level": "city",
+    "name": {
+      "zhHans": "中卫市",
+      "en": ""
+    },
+    "aliases": [
+      "中卫",
+      "中卫市"
+    ]
+  },
+  {
+    "code": "650100",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "乌鲁木齐市",
+      "en": ""
+    },
+    "aliases": [
+      "乌鲁木齐",
+      "乌鲁木齐市"
+    ]
+  },
+  {
+    "code": "650200",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "克拉玛依市",
+      "en": ""
+    },
+    "aliases": [
+      "克拉玛依",
+      "克拉玛依市"
+    ]
+  },
+  {
+    "code": "650400",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "吐鲁番市",
+      "en": ""
+    },
+    "aliases": [
+      "吐鲁番",
+      "吐鲁番市"
+    ]
+  },
+  {
+    "code": "650500",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "哈密市",
+      "en": ""
+    },
+    "aliases": [
+      "哈密",
+      "哈密市"
+    ]
+  },
+  {
+    "code": "652300",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "昌吉回族自治州",
+      "en": ""
+    },
+    "aliases": [
+      "昌吉回族",
+      "昌吉回族自治州"
+    ]
+  },
+  {
+    "code": "652700",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "博尔塔拉蒙古自治州",
+      "en": ""
+    },
+    "aliases": [
+      "博尔塔拉蒙古",
+      "博尔塔拉蒙古自治州"
+    ]
+  },
+  {
+    "code": "652800",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "巴音郭楞蒙古自治州",
+      "en": ""
+    },
+    "aliases": [
+      "巴音郭楞蒙古",
+      "巴音郭楞蒙古自治州"
+    ]
+  },
+  {
+    "code": "652900",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿克苏地区",
+      "en": ""
+    },
+    "aliases": [
+      "阿克苏",
+      "阿克苏地区"
+    ]
+  },
+  {
+    "code": "653000",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "克孜勒苏柯尔克孜自治州",
+      "en": ""
+    },
+    "aliases": [
+      "克孜勒苏柯尔克孜",
+      "克孜勒苏柯尔克孜自治州"
+    ]
+  },
+  {
+    "code": "653100",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "喀什地区",
+      "en": ""
+    },
+    "aliases": [
+      "喀什",
+      "喀什地区"
+    ]
+  },
+  {
+    "code": "653200",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "和田地区",
+      "en": ""
+    },
+    "aliases": [
+      "和田",
+      "和田地区"
+    ]
+  },
+  {
+    "code": "654000",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "伊犁哈萨克自治州",
+      "en": ""
+    },
+    "aliases": [
+      "伊犁哈萨克",
+      "伊犁哈萨克自治州"
+    ]
+  },
+  {
+    "code": "654200",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "塔城地区",
+      "en": ""
+    },
+    "aliases": [
+      "塔城",
+      "塔城地区"
+    ]
+  },
+  {
+    "code": "654300",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿勒泰地区",
+      "en": ""
+    },
+    "aliases": [
+      "阿勒泰",
+      "阿勒泰地区"
+    ]
+  },
+  {
+    "code": "659001",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "石河子市",
+      "en": ""
+    },
+    "aliases": [
+      "石河子",
+      "石河子市"
+    ]
+  },
+  {
+    "code": "659002",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "阿拉尔市",
+      "en": ""
+    },
+    "aliases": [
+      "阿拉尔",
+      "阿拉尔市"
+    ]
+  },
+  {
+    "code": "659003",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "图木舒克市",
+      "en": ""
+    },
+    "aliases": [
+      "图木舒克",
+      "图木舒克市"
+    ]
+  },
+  {
+    "code": "659004",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "五家渠市",
+      "en": ""
+    },
+    "aliases": [
+      "五家渠",
+      "五家渠市"
+    ]
+  },
+  {
+    "code": "659005",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "北屯市",
+      "en": ""
+    },
+    "aliases": [
+      "北屯",
+      "北屯市"
+    ]
+  },
+  {
+    "code": "659006",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "铁门关市",
+      "en": ""
+    },
+    "aliases": [
+      "铁门关",
+      "铁门关市"
+    ]
+  },
+  {
+    "code": "659007",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "双河市",
+      "en": ""
+    },
+    "aliases": [
+      "双河",
+      "双河市"
+    ]
+  },
+  {
+    "code": "659008",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "可克达拉市",
+      "en": ""
+    },
+    "aliases": [
+      "可克达拉",
+      "可克达拉市"
+    ]
+  },
+  {
+    "code": "659009",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "昆玉市",
+      "en": ""
+    },
+    "aliases": [
+      "昆玉",
+      "昆玉市"
+    ]
+  },
+  {
+    "code": "659010",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "胡杨河市",
+      "en": ""
+    },
+    "aliases": [
+      "胡杨河",
+      "胡杨河市"
+    ]
+  },
+  {
+    "code": "659011",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "新星市",
+      "en": ""
+    },
+    "aliases": [
+      "新星",
+      "新星市"
+    ]
+  },
+  {
+    "code": "659012",
+    "parentCode": "650000",
+    "level": "city",
+    "name": {
+      "zhHans": "白杨市",
+      "en": ""
+    },
+    "aliases": [
+      "白杨",
+      "白杨市"
+    ]
+  }
+]

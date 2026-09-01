@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#e84c2a" />
+    <meta
+      name="description"
+      content="Emergency Call developer number package editor and publishing console."
+    />
+    <meta property="og:title" content="Emergency Call · Package Console" />
+    <meta property="og:description" content="Edit, validate and publish signed developer number packages." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hanqiuabab.github.io/EmergencyCall-PackageAdmin/" />
+    <meta property="og:image" content="https://hanqiuabab.github.io/EmergencyCall-PackageAdmin/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'" />
+    <title>资源包控制台 · Emergency Call</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="资源包控制台首页">
+        <span class="brand-mark" aria-hidden="true">EC</span>
+        <span>
+          <strong data-i18n="brand.title">资源包控制台</strong>
+          <small>Emergency Call · Hanqiu</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <span class="status-pill"><span class="status-dot"></span><span id="statusText" data-i18n="status.local">本地草稿</span></span>
+        <button class="button button-quiet" id="languageButton" type="button">EN</button>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <aside class="sidebar" aria-label="号码列表">
+        <div class="sidebar-heading">
+          <div>
+            <p class="eyebrow" data-i18n="contacts.eyebrow">开发者号码</p>
+            <h1><span id="contactCount">0</span> <span data-i18n="contacts.unit">项服务</span></h1>
+          </div>
+          <button class="icon-button" id="addContactButton" type="button" aria-label="新增号码">＋</button>
+        </div>
+        <label class="search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="搜索名称、号码或业务键" autocomplete="off" />
+        </label>
+        <div id="contactList" class="contact-list"></div>
+      </aside>
+
+      <section class="editor-panel" aria-live="polite">
+        <div class="editor-toolbar">
+          <div>
+            <p class="eyebrow" data-i18n="editor.eyebrow">号码详情</p>
+            <h2 id="editorTitle" data-i18n="editor.emptyTitle">选择或新增一个号码</h2>
+          </div>
+          <div class="toolbar-actions">
+            <button class="button button-secondary" id="importButton" type="button" data-i18n="action.import">导入</button>
+            <button class="button button-secondary" id="exportButton" type="button" data-i18n="action.export">导出</button>
+            <button class="button button-primary" id="publishButton" type="button" data-i18n="action.publish">提交发布</button>
+          </div>
+        </div>
+        <div id="editorBody" class="empty-state"></div>
+        <aside id="validationPanel" class="validation-panel" aria-live="polite"></aside>
+      </section>
+    </main>
+
+    <input id="fileInput" type="file" accept="application/json,.json" hidden />
+
+    <dialog id="publishDialog" class="modal">
+      <form id="publishForm" class="modal-card">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">GitHub → CloudKit</p>
+            <h2 id="publishDialogTitle">提交并发布资源包</h2>
+          </div>
+          <button class="icon-button icon-button-muted" id="publishCloseButton" type="button" aria-label="关闭">×</button>
+        </div>
+        <p id="publishDialogDescription" class="modal-description"></p>
+        <div class="form-grid">
+          <label class="form-field is-wide">
+            <span id="tokenLabel"></span>
+            <input id="githubTokenInput" type="password" autocomplete="off" required />
+            <small id="tokenHelp"></small>
+          </label>
+          <label class="form-field">
+            <span id="versionLabel"></span>
+            <input id="versionInput" type="number" min="1" step="1" required />
+          </label>
+          <label class="form-field">
+            <span id="environmentLabel"></span>
+            <select id="environmentInput">
+              <option value="development">Development</option>
+              <option value="production">Production</option>
+            </select>
+          </label>
+          <label class="form-field is-wide">
+            <span id="commitLabel"></span>
+            <input id="commitInput" type="text" maxlength="120" required />
+          </label>
+        </div>
+        <label class="confirm-field">
+          <input id="confirmInput" type="checkbox" required />
+          <span id="confirmLabel"></span>
+        </label>
+        <div id="publishResult" class="publish-result" aria-live="polite"></div>
+        <div class="modal-actions">
+          <button class="button button-secondary" id="publishCancelButton" type="button">关闭</button>
+          <button class="button button-primary" id="publishSubmitButton" type="submit"></button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="jsonDialog" class="modal modal-wide">
+      <div class="modal-card">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">JSON</p>
+            <h2>contacts.json</h2>
+          </div>
+          <button class="icon-button icon-button-muted" id="jsonCloseButton" type="button" aria-label="关闭">×</button>
+        </div>
+        <pre id="jsonPreview" class="json-preview"></pre>
+      </div>
+    </dialog>
+
+    <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
