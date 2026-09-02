@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "id": "contact-190899d3-5f29-4b63-b94a-c4c4943a0cac",
+    "serviceKey": "service-c6f89de3-d111-4d1b-a380-e48daae4fe8e",
+    "category": "police",
+    "name": {
+      "zhHans": "公安报警",
+      "en": "Police"
+    },
+    "description": {
+      "zhHans": "用于刑事、治安案件报警及紧急求助。",
+      "en": "For reporting crimes and requesting urgent police assistance."
+    },
+    "displayNumber": "110",
+    "dialNumber": "110",
+    "coverageScopes": [
+      {
+        "type": "nationwide",
+        "regionCode": null
+      }
+    ],
+    "sourceURL": "https://bjca.miit.gov.cn/zwgk/tzgg/art/2022/art_8d4eb93ee3424f30826c97ee400e8937.html",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 10,
+    "isFeatured": true
+  },
+  {
+    "id": "contact-0c989c2a-7bad-4969-9873-ac4ed960bf1b",
+    "serviceKey": "service-f2190116-f219-4395-aeca-756ffa8f9945",
+    "category": "fire",
+    "name": {
+      "zhHans": "消防救援",
+      "en": "Fire and Rescue"
+    },
+    "description": {
+      "zhHans": "用于火灾、爆炸及其他需要消防救援的紧急情况。",
+      "en": "For fires, explosions, and other emergencies requiring fire and rescue services."
+    },
+    "displayNumber": "119",
+    "dialNumber": "119",
+    "coverageScopes": [
+      {
+        "type": "nationwide",
+        "regionCode": null
+      }
+    ],
+    "sourceURL": "https://bjca.miit.gov.cn/zwgk/tzgg/art/2022/art_8d4eb93ee3424f30826c97ee400e8937.html",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 20,
+    "isFeatured": true
+  },
+  {
+    "id": "contact-439d591f-3a38-4d3f-be38-e4412c77c60f",
+    "serviceKey": "service-b950868c-4450-404f-a573-ac5c0f9418f0",
+    "category": "medical",
+    "name": {
+      "zhHans": "医疗急救",
+      "en": "Medical Emergency"
+    },
+    "description": {
+      "zhHans": "用于急危重症患者和事故伤员的医疗急救。",
+      "en": "For urgent medical assistance and accident rescue."
+    },
+    "displayNumber": "120",
+    "dialNumber": "120",
+    "coverageScopes": [
+      {
+        "type": "nationwide",
+        "regionCode": null
+      }
+    ],
+    "sourceURL": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260713_4759730.html",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 30,
+    "isFeatured": true
+  },
+  {
+    "id": "contact-2041bfff-647a-415f-93b0-05a4b1683b47",
+    "serviceKey": "service-c89e4d17-3392-4dea-823d-660f46eba02b",
+    "category": "traffic",
+    "name": {
+      "zhHans": "交通事故报警",
+      "en": "Traffic Accident Police"
+    },
+    "description": {
+      "zhHans": "用于报告交通事故并请求交通警察协助。",
+      "en": "For reporting traffic accidents and requesting traffic police assistance."
+    },
+    "displayNumber": "122",
+    "dialNumber": "122",
+    "coverageScopes": [
+      {
+        "type": "nationwide",
+        "regionCode": null
+      }
+    ],
+    "sourceURL": "https://www.cneb.gov.cn/yjzn/",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 40,
+    "isFeatured": true
+  },
+  {
+    "id": "contact-1654914b-da49-4071-94ea-176d149caec7",
+    "serviceKey": "service-2f3f682f-5408-4be1-806c-0e32adf340f4",
+    "category": "utility",
+    "name": {
+      "zhHans": "上海燃气热线",
+      "en": "Shanghai Gas Hotline"
+    },
+    "description": {
+      "zhHans": "适用于上海市燃气漏气、设备故障等报修。发现漏气时请立即远离现场并拨打热线。",
+      "en": "For reporting gas leaks and gas equipment faults in Shanghai. Leave the area immediately when a leak is suspected."
+    },
+    "displayNumber": "962777",
+    "dialNumber": "962777",
+    "coverageScopes": [
+      {
+        "type": "province",
+        "regionCode": "310000"
+      }
+    ],
+    "sourceURL": "https://www.shanghai.gov.cn/xbhygq/20240719/d863d67c59844c0489377c3ae3abad3f.html",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 50,
+    "isFeatured": true
+  },
+  {
+    "id": "contact-51290a47-dc6d-4b76-a261-5d6a6ad0ff84",
+    "serviceKey": "service-2b5de0f4-1757-4e59-892c-d499a11c3b79",
+    "category": "medical",
+    "name": {
+      "zhHans": "北京急救（999）",
+      "en": "Beijing Emergency Medical Service (999)"
+    },
+    "description": {
+      "zhHans": "用于急危重症患者和事故伤员的医疗急救。",
+      "en": "For urgent medical assistance and accident rescue."
+    },
+    "displayNumber": "999",
+    "dialNumber": "999",
+    "coverageScopes": [
+      {
+        "type": "province",
+        "regionCode": "110000"
+      }
+    ],
+    "sourceURL": "https://yjglj.beijing.gov.cn/col/col2738/index.html",
+    "verifiedAt": "2026-09-02",
+    "sortOrder": 60,
+    "isFeatured": false
+  }
+]
