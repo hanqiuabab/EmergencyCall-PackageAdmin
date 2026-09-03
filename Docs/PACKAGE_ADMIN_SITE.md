@@ -54,21 +54,22 @@ security find-generic-password -s com.hanqiu.EmergencyCall.NumberPackageSigningK
 
 ## 初始化 CloudKit Server-to-Server 密钥
 
-在安全目录生成 P-256 密钥对：
+在安全目录生成 P-256 密钥对，并将 PKCS#8 私钥转为适合 CI secret 的单行 Base64：
 
 ```sh
 openssl ecparam -name prime256v1 -genkey -noout -out cloudkit-server-key.pem
 openssl ec -in cloudkit-server-key.pem -pubout -out cloudkit-server-key-public.pem
+openssl pkcs8 -topk8 -nocrypt -in cloudkit-server-key.pem -outform DER | base64 | tr -d '\n' > cloudkit-server-key-pkcs8.b64
 ```
 
 在 CloudKit Console 的容器 `iCloud.com.hanqiu.EmergencyCall` 中创建 Server-to-Server Key，上传 `cloudkit-server-key-public.pem`，记录 Apple 返回的 Key ID。随后在 `development` 与 `production` 两个 GitHub Environment 中分别添加：
 
 ```text
 CLOUDKIT_SERVER_KEY_ID
-CLOUDKIT_SERVER_PRIVATE_KEY_PEM
+CLOUDKIT_SERVER_PRIVATE_KEY_B64
 ```
 
-其中私钥 secret 的值是 `cloudkit-server-key.pem` 的完整 PEM 内容。CloudKit 公共数据库 schema 必须先部署到对应环境。
+其中私钥 secret 的值是 `cloudkit-server-key-pkcs8.b64` 的单行内容，避免 CI 环境传递多行 PEM 时发生格式变化。发布器会优先使用 Base64，也兼容旧的 `CLOUDKIT_SERVER_PRIVATE_KEY_PEM`。CloudKit 公共数据库 schema 必须先部署到对应环境。
 
 建议为 GitHub 的 `production` Environment 配置 Required reviewers，确保正式发布必须再人工确认一次。
 

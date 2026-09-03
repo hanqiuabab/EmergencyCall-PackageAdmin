@@ -48,6 +48,17 @@ export function packagePrivateKey(environment = process.env) {
   return createPrivateKey({ key: Buffer.concat([prefix, raw]), format: "der", type: "pkcs8" });
 }
 
+export function cloudKitServerPrivateKey(environment = process.env) {
+  const encodedPKCS8 = environment.CLOUDKIT_SERVER_PRIVATE_KEY_B64?.trim();
+  if (encodedPKCS8) {
+    return createPrivateKey({ key: Buffer.from(encodedPKCS8, "base64"), format: "der", type: "pkcs8" });
+  }
+  if (environment.CLOUDKIT_SERVER_PRIVATE_KEY_PEM?.trim()) {
+    return createPrivateKey(environment.CLOUDKIT_SERVER_PRIVATE_KEY_PEM);
+  }
+  throw new Error("Missing required secret: CLOUDKIT_SERVER_PRIVATE_KEY_B64 or CLOUDKIT_SERVER_PRIVATE_KEY_PEM");
+}
+
 function parseArguments(argumentsList) {
   const values = {};
   for (let index = 0; index < argumentsList.length; index += 2) {
@@ -92,7 +103,7 @@ async function cloudKitRequest({ path, body, keyID, serverPrivateKey }) {
   const signature = sign(
     "sha256",
     Buffer.from(cloudKitSigningMessage(date, encodedBody, path)),
-    createPrivateKey(serverPrivateKey)
+    serverPrivateKey?.type === "private" ? serverPrivateKey : createPrivateKey(serverPrivateKey)
   ).toString("base64");
   const response = await fetch(`${apiOrigin}${path}`, {
     method: "POST",
@@ -131,7 +142,7 @@ function cloudKitConfiguration(environment) {
   return {
     databasePath: `/database/1/${container}/${environment}/public`,
     keyID: requiredEnvironment("CLOUDKIT_SERVER_KEY_ID"),
-    serverPrivateKey: requiredEnvironment("CLOUDKIT_SERVER_PRIVATE_KEY_PEM")
+    serverPrivateKey: cloudKitServerPrivateKey()
   };
 }
 

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
-import { createHash, generateKeyPairSync, verify } from "node:crypto";
+import { createHash, createPublicKey, generateKeyPairSync, verify } from "node:crypto";
 import { test } from "node:test";
-import { cloudKitSigningMessage, nextPackageVersion, packageDigest, packagePrivateKey, rawEd25519PublicKey, signPackage, validatePackageShape } from "../../Scripts/publish-cloudkit.mjs";
+import { cloudKitServerPrivateKey, cloudKitSigningMessage, nextPackageVersion, packageDigest, packagePrivateKey, rawEd25519PublicKey, signPackage, validatePackageShape } from "../../Scripts/publish-cloudkit.mjs";
 
 test("increments the latest CloudKit package version automatically", () => {
   assert.equal(nextPackageVersion(0), 1);
@@ -49,4 +49,15 @@ test("loads the raw 32-byte Keychain signing secret used by CI", () => {
   const privateDER = privateKey.export({ format: "der", type: "pkcs8" });
   const rawSecret = Buffer.from(privateDER).subarray(-32).toString("base64");
   assert.deepEqual(rawEd25519PublicKey(packagePrivateKey({ NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64: rawSecret })), rawEd25519PublicKey(privateKey));
+});
+
+test("loads a single-line PKCS#8 CloudKit server key used by CI", () => {
+  const { privateKey, publicKey } = generateKeyPairSync("ec", { namedCurve: "prime256v1" });
+  const encodedPKCS8 = privateKey.export({ format: "der", type: "pkcs8" }).toString("base64");
+  const loadedPublicKey = cloudKitServerPrivateKey({
+    CLOUDKIT_SERVER_PRIVATE_KEY_B64: encodedPKCS8,
+    CLOUDKIT_SERVER_PRIVATE_KEY_PEM: "invalid legacy value"
+  });
+  assert.deepEqual(loadedPublicKey.export({ format: "jwk" }), privateKey.export({ format: "jwk" }));
+  assert.deepEqual(createPublicKey(loadedPublicKey).export({ format: "jwk" }), publicKey.export({ format: "jwk" }));
 });

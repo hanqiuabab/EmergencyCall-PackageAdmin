@@ -48,6 +48,7 @@ jobs:
         id: package-version
         env:
           CLOUDKIT_SERVER_KEY_ID: ${{ secrets.CLOUDKIT_SERVER_KEY_ID }}
+          CLOUDKIT_SERVER_PRIVATE_KEY_B64: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_B64 }}
           CLOUDKIT_SERVER_PRIVATE_KEY_PEM: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_PEM }}
           TARGET_ENVIRONMENT: ${{ inputs.environment }}
         run: |
@@ -69,6 +70,7 @@ jobs:
           NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_PEM: ${{ secrets.NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_PEM }}
           NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64: ${{ secrets.NUMBER_PACKAGE_SIGNING_PRIVATE_KEY_B64 }}
           CLOUDKIT_SERVER_KEY_ID: ${{ secrets.CLOUDKIT_SERVER_KEY_ID }}
+          CLOUDKIT_SERVER_PRIVATE_KEY_B64: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_B64 }}
           CLOUDKIT_SERVER_PRIVATE_KEY_PEM: ${{ secrets.CLOUDKIT_SERVER_PRIVATE_KEY_PEM }}
           PACKAGE_VERSION: ${{ steps.package-version.outputs.version }}
           NUMBER_PACKAGE_PUBLIC_KEY_PATH: Config/number-package-public-key.b64
